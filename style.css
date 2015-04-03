@@ -1,0 +1,182 @@
+/*
+Theme Name: VRQC
+Theme URI: http://vacationrentalsquebeccity.com
+Description: Wordpress theme based on Stylish Bootstrap Theme
+Version: 1.0
+Tags: custom
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+Some other comments or urls here that will prove useful reminders to you or another developer
+*/
+
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+/* @import url("css/ie.css"); */
+
+.text-info {
+    color: RGBA(201, 159, 78, 1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    color: RGBA(184, 170, 142, 1);
+    text-rendering: optimizelegibility;
+    letter-spacing: 0px;
+}
+a {
+    text-decoration: none!important;
+
+}
+.clr a {
+    color: RGBA(6, 15, 62, 1);
+}
+a:hover {
+    color: RGBA(6, 15, 62, 1);
+    text-shadow: 0px 0px 2px RGBA(6, 15, 62, .1);
+    text-decoration: none!important;
+
+}
+
+img {border-radius:5px; width:100%; height:auto;}
+button, .btn {box-shadow:4px 4px 5px rgba(5,8,13,.1);}
+button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(5,8,13,.14);}
+.btn-default {background-color: #337ab7; color:rgba(242,247,250,.98); font-weight: bold}
+.featured-offer {box-shadow:5px 5px 5px rgba(5,8,13,.08)}
+.panel-default {box-shadow:2px 2px 3px rgba(5,8,13,.15); }
+.panel, .panel-heading, .panel-body { background:rgba(247,250,255,.96)}
+.well {box-shadow:3px 3px 4px rgba(5,8,13,.1) inset;  background:rgba(232,237,240,.96)}
+.wp-post-image {box-shadow:1px 1px 2px rgba(5,8,13,.2)}
+
+
+.property-featured img {border-radius: 0}
+
+.brand h1 {font-size: 1.4em}
+.brand img {
+    width: 100%;
+    max-width:100px;
+    float: left;
+}
+
+/*.navbar-toggle {
+    position: absolute;
+    right: 0;
+    top: -72px;
+}*/
+
+.camera_wrap img, .post img, .property  .property-featured img {
+    width:100%;
+    height: auto;
+}
+.homepage-splash {
+    margin-top: 1.618%;
+}
+
+.featured-offer img, .homepage-splash img, .page img {
+    width:100%;
+    height: inherit;
+    border-radius: 0px!important;
+
+}
+
+.navbar-default {
+    background-color: rgba(248,240,254,.1);
+    border-color:  rgba(0,0,0,0);
+}
+
+html {
+    background: url('./images/background-lightmotionblur.jpg') fixed;
+}
+
+body {
+    margin: 1.618% 0;
+    background: #e9e6ed; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5ZTZlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGY0ZmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #e9e6ed 0%, #f0f4fa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9e6ed), color-stop(100%,#f0f4fa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e9e6ed 0%,#f0f4fa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e9e6ed 0%,#f0f4fa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e9e6ed 0%,#f0f4fa 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e9e6ed 0%,#f0f4fa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e6ed', endColorstr='#f0f4fa',GradientType=0 ); /* IE6-8 */
+
+}
+
+.header-info h1 {padding:0; margin:0; font-size: 1.618em}
+.phone {
+    position: relative;
+    top: 6px;
+}
+footer, footer aside{
+    background: rgba(0,0,0,.1);
+}
+footer aside h3 {
+    color:rgba(250,248,254,.95)
+}
+footer li {
+    list-style: none;
+    padding: .5em .5em .5em 0;
+
+}
+.post-group {}
+.property {}
+
+.weather b, .weather span {
+    color: rgba(249,246,254,.96)
+}
+
+.language {
+    position: relative;
+    top: 6px;
+}
+
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+
+
+}
+.smallpad {padding:.1em!important;}
+.nopad {padding:0!important}
+
+#respond {clear: both}
+
+.property-list .panel-default {height:600px; overflow-y: scroll}
+.post-list {height:200px; overflow-y: scroll}
+
+.navbar li a, .navbar li a:hover {
+    color:rgba(250,248,254,.95)
+}
+.navbar li a:hover, .navbar li {
+    color: rgba(25, 24, 25, .95)
+}
+
+.bottom-nav {
+    background: rgba(51,122,183, .95);
+}
+
+.top-nav {
+    background:rgba(250,248,254,.95);
+    border-bottom: dotted 1px rgba(51,122,183, .25);
+    box-shadow:2px 2px 3px rgba(5,8,13,.15);
+}
+
+.tagline {
+    font-size: 120%;
+    margin-top: 0!important;
+}
