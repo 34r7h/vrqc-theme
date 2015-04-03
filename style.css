@@ -32,7 +32,8 @@ Some other comments or urls here that will prove useful reminders to you or anot
     border-color: #fccd4d;
 
 }
-
+.btn-success:hover {    border-color: initial;
+}
 .btn-success:active {
     background: #fbdf93; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -45,17 +46,19 @@ Some other comments or urls here that will prove useful reminders to you or anot
     background: linear-gradient(to bottom,  #fbdf93 0%,#f8b500 49%,#fccd4d 50%,#fceabb 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbdf93', endColorstr='#fceabb',GradientType=0 ); /* IE6-8 */
     text-shadow: 1px 1px 1px rgba(10,5,2,.51) ;
+    border-color: #fccd4d;
+
 }
 
 .shadow {
-    text-shadow: 1px 1px 1px rgba(10,5,2,.51) ;
+    text-shadow: 1px 1px 1px RGBA(6, 24, 80, .618);
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 10px 0;
     font-family: "Helvetica Neue", sans-serif;
     font-weight: normal;
     line-height: 1;
-    color: RGBA(184, 170, 142, 1);
+    color: RGBA(6, 24, 80, .618);
     text-rendering: optimizelegibility;
     letter-spacing: 0px;
 }
@@ -68,20 +71,20 @@ a {
 }
 a:hover {
     color: RGBA(6, 15, 62, 1);
-    text-shadow: 0px 0px 2px RGBA(6, 15, 62, .1);
+    text-shadow: 0px 0px 2px RGBA(6, 24, 80, .09);
     text-decoration: none!important;
 
 }
 
 img {border-radius:5px; width:100%; height:auto;}
-button, .btn {box-shadow:4px 4px 5px rgba(5,8,13,.1);}
-button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(5,8,13,.14);}
+button, .btn {box-shadow:4px 4px 5px RGBA(6, 24, 80, .1);}
+button:hover, .btn:hover {box-shadow:3px 3px 4px RGBA(6, 24, 80, .14);}
 .btn-default {background-color: #337ab7; color:rgba(242,247,250,.98); font-weight: bold}
 .featured-offer {box-shadow:5px 5px 5px rgba(5,8,13,.08)}
 .panel-default {box-shadow:2px 2px 3px rgba(5,8,13,.15); }
 .panel, .panel-heading, .panel-body { background:rgba(247,250,255,.96)}
 .well {box-shadow:3px 3px 4px rgba(5,8,13,.1) inset;  background:rgba(232,237,240,.96)}
-.wp-post-image {box-shadow:1px 1px 2px rgba(5,8,13,.2)}
+.wp-post-image {box-shadow:1px 1px 2px RGBA(6, 24, 80, .17)}
 
 
 .property-featured img {border-radius: 0}
@@ -144,7 +147,7 @@ body {
     top: 6px;
 }
 footer, footer aside{
-    background: rgba(0,0,0,.1);
+    background: RGBA(6, 24, 80, .17);
 }
 footer aside h3 {
     color:rgba(250,248,254,.95)
@@ -194,7 +197,7 @@ footer li {
     color:rgba(250,248,254,.95)
 }
 .navbar li a:hover, .navbar li {
-    color: rgba(25, 24, 25, .95)
+    color: RGBA(6, 24, 80, .95);
 }
 
 .bottom-nav {
@@ -204,10 +207,16 @@ footer li {
 .top-nav {
     background:rgba(250,248,254,.95);
     border-bottom: dotted 1px rgba(51,122,183, .25);
-    box-shadow:2px 2px 3px rgba(5,8,13,.15);
+    box-shadow:2px 2px 3px RGBA(6, 24, 80, .17);
+}
+
+span.nav-brand {
+    color: RGBA(6, 24, 80, .94);
+
 }
 
 .tagline {
     font-size: 120%;
     margin-top: 0!important;
+    color: RGBA(6, 24, 80, .51);
 }

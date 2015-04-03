@@ -26,7 +26,7 @@
             </div>
             <br/>
             <div ng-init="show.propertySection='Overview'" class="col-xs-12 btn-group btn-group-justified">
-                <a ng-repeat="(key, section) in nav.property" ng-click='$parent.show.propertySection={}; $parent.show.propertySection=section' type="button" class="btn btn-default">{{section}}</a>
+                <a ng-repeat="(key, section) in nav.property" ng-click='$parent.show.propertySection={}; $parent.show.propertySection=section' type="button" class="btn btn-success shadow">{{section}}</a>
             </div>
             <hr/>
 
