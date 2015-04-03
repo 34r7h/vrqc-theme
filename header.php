@@ -21,7 +21,7 @@
                 <img class="pull-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
                 <span style="font-size: 1.3em" class="nav-brand">Vacation Rentals Quebec City</span>
             </a>
-            <a class="pull-left navbar-text" target="new"  href="<?php echo get_site_url(); ?>">
+            <a class="pull-left navbar-text" target="new" class="prisna" href="<?php echo get_site_url(); ?>">
             </a>
             <div class="pull-right" >
                 <a href="tel:15817776339" class="fa fa-phone phone btn btn-default navbar-btn"> <span style="font-size: 120%" class="hidden-xs">+01-581-777-6339</span></a>
@@ -37,7 +37,7 @@
             <ul class="navbar-header col-xs-12 col-sm-7">
                 <h1 class="col-xs-12 text-center tagline">We strive to provide a most uniquely Quebecois experience!</h1>
                 <div class="col-xs-12 btn-group btn-group-justified" ng-init="nav.pages = ['Home','About','Properties','Contact','Blog']">
-                    <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page}}" type="button" class="btn btn-default">{{page}}</a>
+                    <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page}}" type="button" class="btn btn-success shadow">{{page}}</a>
                 </div>
 <!--
                     <?php wp_nav_menu( array( 'items_wrap' => '<a id="%1$s" class="%2$s">%3$s</a>', 'depth' => 0) ); ?>
