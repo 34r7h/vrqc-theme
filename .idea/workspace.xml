@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -70,24 +71,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="4370">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.5097561" vertical-offset="836" max-vertical-offset="4370">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
               <folding>
                 <element signature="e#776#1607#2" expanded="true" />
                 <element signature="e#2754#3589#2" expanded="true" />
-                <element signature="e#6702#7365#2" expanded="true" />
+                <element signature="e#6686#7349#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-property.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single-property.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single-property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26685393" vertical-offset="0" max-vertical-offset="3439">
+            <state vertical-scroll-proportion="-1.7592592" vertical-offset="0" max-vertical-offset="3439">
               <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -441,7 +442,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428646726219</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="&#10;booking button">
+      <created>1428646784131</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1428646784131</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,7 +522,7 @@
           <folding>
             <element signature="e#776#1607#2" expanded="true" />
             <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6702#7365#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,7 +584,7 @@
           <folding>
             <element signature="e#776#1607#2" expanded="true" />
             <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6702#7365#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -613,7 +620,7 @@
           <folding>
             <element signature="e#776#1607#2" expanded="true" />
             <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6702#7365#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -715,18 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="4370">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#776#1607#2" expanded="true" />
-            <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6702#7365#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.148148" vertical-offset="111" max-vertical-offset="741">
@@ -755,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single-property.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26685393" vertical-offset="0" max-vertical-offset="3439">
+        <state vertical-scroll-proportion="-1.7592592" vertical-offset="0" max-vertical-offset="3439">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -763,6 +758,18 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#article#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5097561" vertical-offset="836" max-vertical-offset="4370">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding>
+            <element signature="e#776#1607#2" expanded="true" />
+            <element signature="e#2754#3589#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
