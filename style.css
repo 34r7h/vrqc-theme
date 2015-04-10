@@ -53,7 +53,7 @@ Some other comments or urls here that will prove useful reminders to you or anot
 .shadow {
     text-shadow: 1px 1px 1px rgba(6, 24, 80, .618);
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, span.nav-brand {
 
     font-family: 'Dancing Script', cursive;
     font-weight: 700;

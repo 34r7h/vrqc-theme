@@ -20,7 +20,7 @@
         <div class="col-xs-12">
             <a class="navbar-left navbar-text" href="<?php echo get_site_url(); ?>">
                 <img class="navbar-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
-                <span style="font-size: 1.3em" class="nav-brand">Vacation Rentals Quebec City</span>
+                <span style="font-size: 1.3em" class="nav-brand"><h1>Vacation Rentals Quebec City</h1>
             </a>
             <a class="navbar-text" target="new" class="language prisna">
             </a>
