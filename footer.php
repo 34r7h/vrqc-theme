@@ -14,15 +14,15 @@
                 <i class="fa fa-facebook-official"> <span class="hidden-xs">Facebook</span></i>
             </a></span>
             <span class="navbar-right">
-            <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text">
-                <img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
-                <span>{{vrqc.weather.weather}}&nbsp;</span>
-                <span>{{vrqc.weather.temperature_string}}&nbsp; </span>
-            </p></span>
+                <span class="" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </span>
+                <span ng-if="vrqc.weather.temperature_string" class="weather navbar-text">
+                    <img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
+                    <span>{{vrqc.weather.weather}}&nbsp;</span>
+                    <span>{{vrqc.weather.temperature_string}}&nbsp; </span>
+                </span>
+            </span>
 
         </div>
-        <p class="text-center" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </p>
-
 
     </nav>
 </footer>
