@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="&#10;booking button">
+    <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6449086" vertical-offset="266" max-vertical-offset="1691">
-              <caret line="27" column="90" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.49608356" vertical-offset="266" max-vertical-offset="1691">
+              <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
               <folding>
                 <element signature="n#style#0;n#p#1;n#span#1;n#div#0;n#nav#2;n#header#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#p#1;n#span#1;n#div#0;n#nav#2;n#header#0;n#body#0;n#!!top" expanded="true" />
@@ -370,7 +369,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428642373174</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="&#10;booking button">
+      <created>1428642922073</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1428642922073</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -682,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6449086" vertical-offset="266" max-vertical-offset="1691">
-          <caret line="27" column="90" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.49608356" vertical-offset="266" max-vertical-offset="1691">
+          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#p#1;n#span#1;n#div#0;n#nav#2;n#header#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#1;n#span#1;n#div#0;n#nav#2;n#header#0;n#body#0;n#!!top" expanded="true" />
