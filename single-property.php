@@ -1,7 +1,7 @@
 <div class="clearfix">
     <?php get_header(); ?>
 </div>
-<div class="visible-sm">
+<div class="visible-xs visible-sm">
     <button ng-click="show.bookings != show.bookings" class="btn btn-default btn-lg btn-block">Book Now</button>
 </div>
 <div ng-show="bigPicture" style="position: absolute; width:100%; height:100%; z-index: 1000; top:0">

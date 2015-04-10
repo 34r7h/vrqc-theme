@@ -10,7 +10,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
 
 }).factory('data', function($http, $timeout, $location, $sce, $rootScope){
     var vrqc = {propertiesData:{}, propertiesObject:{}, postsData:{}, postsObject:{}, postData:{}, offersData:{}, weather:{}};
-    var nav = {property: ['Overview','Rates','Location','Photos','Reviews'],properties: ['All', '1 BR', '2 BR', '3 BR', '4+ BR'], categories:[]};
+    var nav = {property: ['Overview','Rates','Location','Reviews'],properties: ['All', '1 BR', '2 BR', '3 BR', '4+ BR'], categories:[]};
     var index = {postsById:{}, postsBySlug:{}, postsByCategory:{}, propertiesById:{},propertiesBySlug:{},propertyPostsById:{},propertyPostsBySlug:{}};
     $timeout(function(){
 
