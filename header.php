@@ -6,9 +6,9 @@
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your description">
-    <meta name="keywords" content="Your keywords">
-    <meta name="author" content="Your name">
+    <meta name="description" content="Vacation rental properties in Quebec City, Canada. On VRBO, Home Away, and AirBnB">
+    <meta name="keywords" content="quebec city, vacation, vacation rentals, property rentals, holiday, canada, quebec">
+    <meta name="author" content="Vacation Rentals Quebec City">
     <?php wp_head(); ?>
 
 </head>
