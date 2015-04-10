@@ -1,7 +1,9 @@
 <div class="clearfix">
     <?php get_header(); ?>
 </div>
-
+<div class="visible-sm">
+    <button ng-click="show.bookings != show.bookings" class="btn btn-default btn-lg btn-block">Book Now</button>
+</div>
 <div ng-show="bigPicture" style="position: absolute; width:100%; height:100%; z-index: 1000; top:0">
     <div class="pull-right" style="position:relative; top:40px; right:8px;">
         <button class="fa fa-2x fa-close" ng-click="bigPicture = !bigPicture"></button>
@@ -9,7 +11,8 @@
     <img ng-src="{{bigPicture}}" alt="{{sliderAlt}}"/>
 </div>
 <div class="clearfix">
-    <article class="col-xs-6 col-sm-7 col-sm-offset-1 property">
+    <article class="col-xs-12 col-sm-8 property">
+
         <div class="panel panel-default">
             <h1 class="panel-heading">
                 <i class="fa fa-home">
@@ -162,7 +165,7 @@
             </div>
         </div>
     </article>
-    <aside class="col-sm-4 hidden-xs" style="padding-top: 1em;">
+    <aside ng-if="show.booking" class="col-sm-4" style="padding-top: 1em;">
         <?php get_sidebar('property'); ?>
     </aside>
 </div>
