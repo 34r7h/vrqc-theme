@@ -60,8 +60,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5535248" vertical-offset="111" max-vertical-offset="741">
-              <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.50391644" vertical-offset="111" max-vertical-offset="741">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#span#1;n#span#1;n#div#0;n#nav#0;n#footer#0;n#!!top" expanded="true" />
               </folding>
@@ -404,7 +404,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428644623001</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="&#10;booking button">
+      <created>1428644749084</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1428644749084</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -714,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5535248" vertical-offset="111" max-vertical-offset="741">
-          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.50391644" vertical-offset="111" max-vertical-offset="741">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#img#0;n#span#1;n#span#1;n#div#0;n#nav#0;n#footer#0;n#!!top" expanded="true" />
           </folding>
