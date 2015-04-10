@@ -68,13 +68,14 @@
             <a class="btn btn-default navbar-btn navbar-left btn-lg" target="new" href="https://www.facebook.com/pages/Vacation-Rentals-Quebec-City/188400344615871">
                     <i class="fa fa-facebook-official"> <span class="hidden-xs">Facebook</span></i>
             </a></span>
-            <p class="navbar-text navbar-right" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </p>
+            <span class="navbar-right">
+                <p class="navbar-text" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </p>
 
-            <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text navbar-right" style="font-size: 120%" >
+            <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text" style="font-size: 120%" >
                 <img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
                 <span>{{vrqc.weather.weather}}&nbsp;</span>
                 <span>{{vrqc.weather.temperature_string}}&nbsp; </span>
-            </p>
+            </p></span>
 
         </div>
 
