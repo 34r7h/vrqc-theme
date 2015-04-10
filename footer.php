@@ -4,7 +4,6 @@
             <?php dynamic_sidebar( 'sidebar-footer' ); ?>
         </div><!-- #primary-sidebar -->
         <?php endif; ?>
-    <hr/>
     <div></div>
     <br/>
 </footer>
