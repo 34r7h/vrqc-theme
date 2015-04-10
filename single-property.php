@@ -1,9 +1,9 @@
 <div class="clearfix">
     <?php get_header(); ?>
 </div>
-<div class="visible-xs visible-sm hidden-md hidden-lg">
+<!--<div class="visible-xs visible-sm hidden-md hidden-lg">
     <button ng-click="show.bookings != show.bookings" class="btn btn-default btn-lg btn-block">Book Now</button>
-</div>
+</div>-->
 <div ng-show="bigPicture" style="position: absolute; width:100%; height:100%; z-index: 1000; top:0">
     <div class="pull-right" style="position:relative; top:40px; right:8px;">
         <button class="fa fa-2x fa-close" ng-click="bigPicture = !bigPicture"></button>
