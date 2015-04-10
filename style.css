@@ -54,8 +54,9 @@ Some other comments or urls here that will prove useful reminders to you or anot
     text-shadow: 1px 1px 1px rgba(6, 24, 80, .618);
 }
 h1, h2, h3, h4, h5, h6 {
-    margin: 10px 0;
-    font-family: "Helvetica Neue", sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
     font-weight: normal;
     line-height: 1;
     color: rgba(6, 24, 80, .75);

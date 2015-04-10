@@ -19,13 +19,13 @@
     <nav class="navbar navbar-default navbar-fixed-top top-nav">
         <div class="col-xs-12">
             <a class="navbar-left navbar-text" href="<?php echo get_site_url(); ?>">
-                <img class="pull-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
+                <img class="navbar-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
                 <span style="font-size: 1.3em" class="nav-brand">Vacation Rentals Quebec City</span>
             </a>
             <a class="navbar-text" target="new" class="language prisna">
             </a>
-            <a href="tel:15817776339" class="" >
-                <i class="fa fa-phone navbar-right btn btn-default navbar-btn btn-lg phone"> <span class="hidden-xs">+01-581-777-6339</span></i>&nbsp;
+            <a href="tel:15817776339" class=" navbar-right" >
+                <i class="fa fa-phone btn btn-default navbar-btn btn-lg phone"> <span class="hidden-xs">+01-581-777-6339</span></i>&nbsp;
             </a>
         </div>
 
