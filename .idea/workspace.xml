@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-property.php" afterPath="$PROJECT_DIR$/single-property.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -85,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-property.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="single-property.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single-property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8333334" vertical-offset="699" max-vertical-offset="3439">
-              <caret line="42" column="55" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.16011237" vertical-offset="0" max-vertical-offset="3439">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -102,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59530026" vertical-offset="0" max-vertical-offset="3477">
+            <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="3477">
               <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
               <folding />
             </state>
@@ -131,8 +130,8 @@
         <option value="$PROJECT_DIR$/page-properties.php" />
         <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/single-property.php" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/single-property.php" />
       </list>
     </option>
   </component>
@@ -371,7 +370,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428643600202</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="&#10;booking button">
+      <created>1428643948063</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1428643948063</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -677,10 +682,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="3477">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/single-property.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8333334" vertical-offset="699" max-vertical-offset="3439">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.16011237" vertical-offset="0" max-vertical-offset="3439">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -689,14 +702,6 @@
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#article#0;n#div#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#aside#0;n#div#3;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59530026" vertical-offset="0" max-vertical-offset="3477">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
