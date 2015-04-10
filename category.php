@@ -20,6 +20,5 @@ while ( have_posts() ) : the_post();
         <?php get_sidebar(); ?>
     </aside>
 </div>
-<hr/>
 <div class="clearfix"><?php get_footer(); ?>
 </div>

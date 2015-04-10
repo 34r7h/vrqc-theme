@@ -22,7 +22,7 @@
             <div class="panel panel-default">
                 <a href="<?php the_permalink();?>">
                     <div class="panel panel-heading">
-                        <h4><i class="fa fa-home"> {{}}<?php the_title(); ?></i></h4>
+                        <h4><i class="fa fa-home"><?php the_title(); ?></i></h4>
                     </div>
                     <div class="frontpage-post panel-body">
                         <?php echo get_the_post_thumbnail() ?>

@@ -27,5 +27,4 @@
 
 
 <?php endwhile; endif; ?>
-<hr/>
-<?php get_footer(); ?>
+<div class="clearfix"><?php get_footer(); ?></div>

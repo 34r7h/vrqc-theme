@@ -136,7 +136,7 @@
 
                     </iframe>-->
                 </div>
-                <div ng-show="show.propertySection ==='Overview' || show.propertySection ==='Photos'" class="col-xs-12 well">
+                <!--<div ng-show="show.propertySection ==='Overview' || show.propertySection ==='Photos'" class="col-xs-12 well">
                     <?php $attachments = new Attachments( 'attachments' ); /* pass the instance name */ ?>
                     <?php if( $attachments->exist() ) : ?>
                     <div ng-init="imageList = []">
@@ -154,7 +154,7 @@
                         <hr ng-if="($index+1) % 4 === 0" class="col-xs-12"/>
                     </div>
 
-                </div>
+                </div>-->
                 <div ng-show="show.propertySection ==='Overview' || show.propertySection ==='Reviews'" class="col-xs-12 well">
                     <h2>Reviews</h2>
                     <hr/>

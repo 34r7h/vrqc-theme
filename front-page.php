@@ -100,7 +100,7 @@
             <hr/>';
             foreach ( $comments_list as $comment ) {
             echo '<article><i disabled class="col-xs-2 col-sm-3 fa fa-user fa-3x text-center"> </i> <b>'.substr( $comment->comment_content, 0, 250 ).'..</b><br />'.date( $date_format, strtotime( $comment->comment_date ) ).' | <a href="'.get_permalink( $comment->comment_post_ID ).'">'.get_the_title( $comment->comment_post_ID ).'</a>
-                <hr/></article>';
+                </article>';
             }
             echo '</div>';
             } else {
