@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -75,12 +73,12 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38120106" vertical-offset="918" max-vertical-offset="4370">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.53002614" vertical-offset="918" max-vertical-offset="4370">
+              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
               <folding>
                 <element signature="e#776#1607#2" expanded="true" />
                 <element signature="e#2754#3589#2" expanded="true" />
-                <element signature="e#6690#7353#2" expanded="true" />
+                <element signature="e#6686#7349#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -419,7 +417,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428644822174</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="&#10;booking button">
+      <created>1428645197473</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1428645197473</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -493,7 +497,7 @@
           <folding>
             <element signature="e#776#1607#2" expanded="true" />
             <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6690#7353#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -555,7 +559,7 @@
           <folding>
             <element signature="e#776#1607#2" expanded="true" />
             <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6690#7353#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -591,7 +595,7 @@
           <folding>
             <element signature="e#776#1607#2" expanded="true" />
             <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6690#7353#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,12 +739,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38120106" vertical-offset="918" max-vertical-offset="4370">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.53002614" vertical-offset="918" max-vertical-offset="4370">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
           <folding>
             <element signature="e#776#1607#2" expanded="true" />
             <element signature="e#2754#3589#2" expanded="true" />
-            <element signature="e#6690#7353#2" expanded="true" />
+            <element signature="e#6686#7349#2" expanded="true" />
           </folding>
         </state>
       </provider>
