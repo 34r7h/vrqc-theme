@@ -142,7 +142,7 @@ body {
 .phone {
     color: rgba(250,248,254,.75);
 }
-.phone:hover {
+.phone:hover, .btn.phone:hover {
     color: rgba(36, 67, 105, 0.64);
 }
 footer, footer aside{
