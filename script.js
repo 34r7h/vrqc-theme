@@ -6,6 +6,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
     $scope.index = data[2];
     $scope.show = {rooms:0};
     $scope.getTheId = data[0].propertySlug;
+		$scope.getDate = Date.now();
 
 }).factory('data', function($http, $timeout, $location, $sce, $rootScope){
     var vrqc = {propertiesData:{}, propertiesObject:{}, postsData:{}, postsObject:{}, postData:{}, offersData:{}, weather:{}};
@@ -120,7 +121,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
                     vrqc.propertyData = vrqc.propertiesObject[data.post.slug];
                     $timeout(function(){
                         vrqc.propertyDataId = vrqc.propertyData['id'];
-                    },0);
+                    }, 0);
                 }
             }).error(function (data, status, headers, config) {
             });
@@ -133,7 +134,6 @@ app.controller('vrqcPropCtrl', function($scope, data){
         $timeout(function(){
             $http.get('http://api.wunderground.com/api/d26d4a3f9b087f03/geolookup/conditions/q/Canada/Québec.json')
                 .success(function (data, status, headers, config) {
-		                console.log('weather data', data);
                     vrqc.weather = data.current_observation;
                 }).error(function (data, status, headers, config) {
             });

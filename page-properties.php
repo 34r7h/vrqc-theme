@@ -59,7 +59,6 @@
     </section>
 </article>
 </div>
-<hr class="col-xs-12"/>
 
 <div class="clearfix"><?php get_footer(); ?>
 </div>

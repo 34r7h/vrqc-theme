@@ -92,7 +92,7 @@ $args = array(
 'before_title'  => '<h3>',
     'after_title'   => '</h3>',
 'before_widget' => '<aside id="%1$s" class="col-xs-6 widget %2$s">',
-    'after_widget'  => '<hr></aside>',
+    'after_widget'  => '<br></aside>',
 );
 register_sidebar( $args );
 

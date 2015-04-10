@@ -1,6 +1,7 @@
 <div class="clearfix">
     <?php get_header(); ?>
 </div>
+
 <div class="hidden-xs homepage-splash">
     <?php
         $post = get_post();
@@ -8,9 +9,8 @@
         echo get_the_post_thumbnail($title, 'full');
         wp_reset_query();
     ?>
-    <hr/>
 </div>
-
+<br/>
 <div class="container-fluid">
     <div class="col-xs-12 col-sm-9 col-md-8 col-lg-7">
 
@@ -20,7 +20,9 @@
             <div class="col-xs-12 btn-group btn-group-justified">
                 <a ng-repeat="(key,section) in nav.properties" ng-click="$parent.show.rooms={}; $parent.show.rooms=key" type="button" class="btn btn-default">{{section}}</a>
             </div>
+<!--
             <hr class="col-xs-12"/>
+-->
             <?php
             // get all the properties category
             $args = array('include'=> '7');

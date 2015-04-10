@@ -1,6 +1,12 @@
 <div class="clearfix">
     <?php get_header(); ?>
 </div>
+<div ng-show="bigPicture" style="position: absolute; width:100%; height:100%; z-index: 1000; top:0">
+    <div class="pull-right" style="position:relative; top:40px; right:8px;">
+        <button class="fa fa-2x fa-close" ng-click="bigPicture = !bigPicture"></button>
+    </div>
+    <img ng-src="{{bigPicture}}" alt="{{sliderAlt}}"/>
+</div>
 <div class="clearfix">
     <article class="col-xs-6 col-sm-7 col-sm-offset-1 property">
         <div class="panel panel-default">
@@ -15,18 +21,22 @@
             </h1>
             <div ng-init="sliderImage=imageList[0].url; sliderAlt = imageList[0].alt; sliderIndex = 0" class="property-featured">
                 <!-- <?php echo get_the_post_thumbnail(); ?> -->
-                <img style="height: 400px" width="auto" ng-src="{{sliderImage || imageList[0].url}}" alt="{{sliderAlt || imageList[0].alt}}"/>
-                <button ng-show="sliderIndex>0" ng-click="sliderIndex=sliderIndex-1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"> < </button>
-                <button ng-show="sliderIndex<imageList.length" ng-click="sliderIndex=sliderIndex+1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"> > </button>
+                <div class="pull-right" style="position:relative; top:40px; right:8px;">
+                    <button class="fa fa-2x fa-arrow-circle-o-left" ng-show="sliderIndex>0" ng-click="sliderIndex=sliderIndex-1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"></button>
+                    <button class="fa fa-2x fa-arrow-circle-o-right" ng-show="sliderIndex<imageList.length" ng-click="sliderIndex=sliderIndex+1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"></button>
+                </div>
+                <div class="gallery" >
+                    <img ng-click="bigPicture = sliderImage" style="height: auto" width="100%" ng-src="{{sliderImage || imageList[0].url}}" alt="{{sliderAlt || imageList[0].alt}}"/>
+                </div>
                 <div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 nopad" ng-repeat="img in imageList track by $index">
-                    <img ng-show="!$parent.gallery[$index]" ng-src="{{img.url}}" alt="{{img.alt}}" class="col-xs-2 smallpad" ng-click="$parent.sliderImage=img.url; $parent.sliderAlt=img.alt; $parent.sliderIndex=$index"/>
+                    <img style="max-height: 50px" ng-show="!$parent.gallery[$index]" ng-src="{{img.url}}" alt="{{img.alt}}" class="col-xs-2 smallpad" ng-click="$parent.sliderImage=img.url; $parent.sliderAlt=img.alt; $parent.sliderIndex=$index"/>
                     <hr ng-if="($index+1) % 4 === 0" class="col-xs-12"/>
                 </div>
                 <hr/>
             </div>
             <br/>
             <div ng-init="show.propertySection='Overview'" class="col-xs-12 btn-group btn-group-justified">
-                <a ng-repeat="(key, section) in nav.property" ng-click='$parent.show.propertySection={}; $parent.show.propertySection=section' type="button" class="btn btn-success shadow">{{section}}</a>
+                <a ng-repeat="(key, section) in nav.property" ng-click='$parent.show.propertySection={}; $parent.show.propertySection=section' type="button" class="menunav btn btn-success shadow">{{section}}</a>
             </div>
             <hr/>
 
@@ -155,7 +165,6 @@
         <?php get_sidebar('property'); ?>
     </aside>
 </div>
-<hr/>
 <div class="clearfix">
     <?php get_footer(); ?>
 </div>
