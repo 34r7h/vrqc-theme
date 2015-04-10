@@ -165,7 +165,7 @@
             </div>
         </div>
     </article>
-    <aside ng-if="show.booking" class="col-sm-4" style="padding-top: 1em;">
+    <aside class="col-xs-12 col-sm-4">
         <?php get_sidebar('property'); ?>
     </aside>
 </div>
