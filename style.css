@@ -94,27 +94,17 @@ button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
 
 .property-featured img {border-radius: 0}
 
-.brand h1 {font-size: 1.4em}
+.brand h1 {font-size: 1.4em; font-family: 'Dancing Script', cursive; font-weight: 700;}
 .brand img {
     width: 100%;
     max-width:100px;
     float: left;
 }
 
-/*.navbar-toggle {
-    position: absolute;
-    right: 0;
-    top: -72px;
-}*/
 
 .camera_wrap img, .post img, .property  .property-featured img {
     width:100%;
     height: auto;
-}
-.homepage-splash {
-/*
-    margin-top: 1.618%;
-*/
 }
 
 .featured-offer img, .homepage-splash img, .page img {

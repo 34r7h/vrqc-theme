@@ -3,6 +3,7 @@
 <html <?php language_attributes(); ?> ng-app="vrqc" ng-init="$root.siteUrl = '<?php echo get_site_url(); ?>'">
 <head>
     <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vacation rental properties in Quebec City, Canada. On VRBO, Home Away, and AirBnB">
@@ -21,7 +22,7 @@
                 <img class="pull-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
                 <span style="font-size: 1.3em" class="nav-brand">Vacation Rentals Quebec City</span>
             </a>
-            <a class="navbar-left navbar-text" target="new" class="prisna" href="<?php echo get_site_url(); ?>">
+            <a class="navbar-left navbar-text" target="new" class="location" href="<?php echo get_site_url(); ?>">
             </a>
             <a href="tel:15817776339" class="navbar-right btn btn-default navbar-btn btn-lg phone" >
                 <i class="fa fa-phone "> <span class="hidden-xs">+01-581-777-6339</span></i>&nbsp;
