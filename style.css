@@ -150,8 +150,10 @@ body {
 
 .header-info h1 {padding:0; margin:0; font-size: 1.618em}
 .phone {
-    position: relative;
-    top: 6px;
+    color: rgba(250,248,254,.75);
+}
+.phone:hover {
+    color: rgba(36, 67, 105, 0.64);
 }
 footer, footer aside{
     background: rgba(6, 24, 80, .17);

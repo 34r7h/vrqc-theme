@@ -38,3 +38,4 @@
 <div class="clearfix">
     <?php get_footer(); ?>
 </div>
+        </div>

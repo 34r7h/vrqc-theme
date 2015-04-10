@@ -10,7 +10,6 @@ get_footer();
 
 get_header();
 ?></div>
-<hr/>
 <div class="clearfix container-fluid"><article class="col-xs-12 col-sm-6 col-sm-offset-1 " id="content" role="main">
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -46,6 +45,5 @@ get_header();
 
 <?php endwhile; else: ?>
 <?php endif; ?>
-<hr/>
 <div class="clearfix"><?php get_footer(); ?>
 </div><?php } ?>

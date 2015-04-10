@@ -17,15 +17,15 @@
 <header class="clearfix">
     <nav class="navbar navbar-default navbar-fixed-top top-nav">
         <div class="col-xs-12">
-            <a class="pull-left navbar-text" href="<?php echo get_site_url(); ?>">
+            <a class="navbar-left navbar-text" href="<?php echo get_site_url(); ?>">
                 <img class="pull-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
                 <span style="font-size: 1.3em" class="nav-brand">Vacation Rentals Quebec City</span>
             </a>
-            <a class="pull-left navbar-text" target="new" class="prisna" href="<?php echo get_site_url(); ?>">
+            <a class="navbar-left navbar-text" target="new" class="prisna" href="<?php echo get_site_url(); ?>">
             </a>
-            <div class="pull-right" >
-                <a href="tel:15817776339" class="fa fa-phone phone btn btn-default navbar-btn"> <span style="font-size: 120%" class="hidden-xs">+01-581-777-6339</span></a>
-            </div>
+            <a href="tel:15817776339" class="navbar-right btn btn-default navbar-btn btn-lg" >
+                <i class="fa fa-phone phone"> <span class="hidden-xs">+01-581-777-6339</span></i>
+            </a>
         </div>
 
     </nav>
@@ -46,7 +46,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
 
-            <div class="col-xs-12 col-sm-5 pull-right">
+            <div class="col-xs-12 col-sm-5 navbar-right">
                 <div class="featured-offer">
                     <?php
                 $cat_id = 5; //the certain category ID
@@ -61,22 +61,20 @@
 
     <nav class="navbar navbar-default navbar-fixed-bottom bottom-nav">
         <div class="col-xs-12">
-            <a class="btn btn-default navbar-btn pull-left" href="mailto:quebeccityreservations@gmail.com">
+            <span class="btn btn-group">
+                <a class="btn btn-default navbar-btn navbar-left btn-lg" href="mailto:quebeccityreservations@gmail.com">
                     <i class="fa fa-envelope"> <span class="hidden-xs">Email</span></i>
             </a>
-            <span class="navbar-text">
-                &nbsp;
-            </span>
-            <a class="btn btn-default navbar-btn pull-left" target="new" href="https://www.facebook.com/pages/Vacation-Rentals-Quebec-City/188400344615871">
+            <a class="btn btn-default navbar-btn navbar-left btn-lg" target="new" href="https://www.facebook.com/pages/Vacation-Rentals-Quebec-City/188400344615871">
                     <i class="fa fa-facebook-official"> <span class="hidden-xs">Facebook</span></i>
-            </a>
+            </a></span>
+            <p class="navbar-text navbar-right" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </p>
 
-            <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text text-right" style="font-size: 120%" >
+            <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text navbar-right" style="font-size: 120%" >
                 <img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
-                <b> {{vrqc.weather.weather}}</b>
-                <span>{{vrqc.weather.temperature_string}}  &nbsp; </span>
+                <span>{{vrqc.weather.weather}}&nbsp;</span>
+                <span>{{vrqc.weather.temperature_string}}&nbsp; </span>
             </p>
-            <p class="navbar-text pull-right" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </p>
 
         </div>
 
