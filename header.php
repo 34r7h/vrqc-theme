@@ -23,8 +23,8 @@
             </a>
             <a class="navbar-left navbar-text" target="new" class="prisna" href="<?php echo get_site_url(); ?>">
             </a>
-            <a href="tel:15817776339" class="navbar-right btn btn-default navbar-btn btn-lg" >
-                <i class="fa fa-phone phone"> <span class="hidden-xs">+01-581-777-6339</span></i>
+            <a href="tel:15817776339" class="navbar-right btn btn-default navbar-btn btn-lg phone" >
+                <i class="fa fa-phone "> <span class="hidden-xs">+01-581-777-6339</span></i>&nbsp;
             </a>
         </div>
 
