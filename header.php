@@ -64,14 +64,14 @@
             <a class="btn btn-default navbar-btn pull-left" href="mailto:quebeccityreservations@gmail.com">
                     <i class="fa fa-envelope"> <span class="hidden-xs">Email</span></i>
             </a>
-            <span class="navbar-text pull-left visible-xs">
+            <span class="navbar-text">
                 &nbsp;
             </span>
             <a class="btn btn-default navbar-btn pull-left" target="new" href="https://www.facebook.com/pages/Vacation-Rentals-Quebec-City/188400344615871">
                     <i class="fa fa-facebook-official"> <span class="hidden-xs">Facebook</span></i>
             </a>
 
-            <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text text-center" style="font-size: 120%" >
+            <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text text-right" style="font-size: 120%" >
                 <img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
                 <b> {{vrqc.weather.weather}}</b>
                 <span>{{vrqc.weather.temperature_string}}  &nbsp; </span>

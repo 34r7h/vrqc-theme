@@ -4,8 +4,6 @@
             <?php dynamic_sidebar( 'sidebar-footer' ); ?>
         </div><!-- #primary-sidebar -->
         <?php endif; ?>
-    <div></div>
-    <br/>
 </footer>
 
 <?php wp_footer();?>
