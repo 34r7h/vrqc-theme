@@ -70,8 +70,6 @@
                     <i class="fa fa-facebook-official"> <span class="hidden-xs">Facebook</span></i>
             </a></span>
             <span class="navbar-right">
-                <p class="navbar-text" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </p>
-
             <p ng-if="vrqc.weather.temperature_string" class="weather navbar-text" style="font-size: 120%" >
                 <img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
                 <span>{{vrqc.weather.weather}}&nbsp;</span>
@@ -79,6 +77,8 @@
             </p></span>
 
         </div>
+        <p class="text-center" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </p>
+
 
     </nav>
 </header>
