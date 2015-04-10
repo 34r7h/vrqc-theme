@@ -80,7 +80,7 @@ a:hover {
 img {border-radius:5px; width:100%; height:auto;}
 button, .btn {box-shadow:4px 4px 5px rgba(6, 24, 80, .1);}
 button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
-.btn-default {background-color: rgba(36, 67, 105,1); color:rgba(242,247,250,.98); font-weight: bold}
+.btn-default {background-color: rgba(36, 67, 105,1); color:rgba(242,247,250,.98); font-weight: bold; border-color: rgba(242,247,250,.38); }
 .featured-offer {
     box-shadow:5px 5px 5px rgba(5,8,13,.08);
     max-height: 62px

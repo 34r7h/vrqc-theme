@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-
 <html <?php language_attributes(); ?> ng-app="vrqc" ng-init="$root.siteUrl = '<?php echo get_site_url(); ?>'">
 <head>
     <title><?php wp_title( '|', true, 'right' ); ?></title>
@@ -8,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vacation rental properties in Quebec City, Canada. On VRBO, Home Away, and AirBnB">
     <meta name="keywords" content="quebec city, vacation, vacation rentals, property rentals, holiday, canada, quebec">
-    <meta name="author" content="Vacation Rentals Quebec City">
+    <meta name="author" content="Vacation Rentals Quebec City
+    ">
     <?php wp_head(); ?>
 
 </head>
