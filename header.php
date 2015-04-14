@@ -22,7 +22,7 @@
                 <img class="navbar-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
                 <span style="font-size: 1.3em" class="nav-brand">Vacation Rentals Quebec City</span>
             </a>
-            <a class="navbar-text" target="new" class="language prisna">
+            <a class="navbar-text language prisna" target="new">
             </a>
             <a href="tel:15817776339" class=" navbar-right" >
                 <i class="fa fa-phone btn btn-default navbar-btn btn-lg phone"> <span class="hidden-xs">+01-581-777-6339</span></i>&nbsp;
