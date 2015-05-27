@@ -17,7 +17,21 @@
 <!--==============================header=================================-->
 <header class="clearfix">
     <nav class="navbar navbar-default navbar-fixed-top top-nav">
-        <div class="col-xs-12">
+        <div class="pull-right col-xs-12">
+            <span class="navbar-text">
+                <h3 class="nomar">Reservations</h3>
+            </span>
+            <span class="navbar-text dark-text nomar">
+                <div>English: <b class="pull-right">1 (581) 777-6339</b></div>
+                <div>Francais: <b class="pull-right">1 (581) 777-6339</b></div>
+            </span>
+            <span class="navbar-text dark-text">
+                <h3 class="nomar">Concierge</h3>
+            </span>
+            <span class="navbar-text dark-text"><b class="pull-right">1 (581) 777-6339</b></span>
+            <span class="navbar-btn btn btn-default pull-right">Language</span>
+        </div>
+        <!--<div class="col-xs-12">
             <a class="navbar-left navbar-text" href="<?php echo get_site_url(); ?>">
                 <img class="navbar-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
                 <span style="font-size: 1.3em" class="nav-brand">Vacation Rentals Quebec City</span>
@@ -27,25 +41,28 @@
             <a href="tel:15817776339" class=" navbar-right" >
                 <i class="fa fa-phone btn btn-default navbar-btn btn-lg phone"> <span class="hidden-xs">+01-581-777-6339</span></i>&nbsp;
             </a>
-        </div>
+        </div>-->
 
     </nav>
     <br/>
     <nav class="navbar navbar-default">
         <br/>
-
+        <b class="col-xs-12 col-sm-4 btn btn-default navbar-btn btn-lg"><h2>Les Maisons Montcalm</h2></b>
+        <div class="col-xs-12 col-sm-8" ng-init="nav.pages = ['About','Suites','Contact','Explore QC']">
+            <span class="navbar-btn btn-group btn-group-justified"><a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page}}" type="button" class="menunav btn btn-success shadow">{{page}}</a></span>
+        </div>
             <!-- Brand and toggle get grouped for better mobile display -->
-            <ul class="navbar-header col-xs-12 col-sm-7">
+            <!--<ul class="navbar-header col-xs-12 col-sm-7">
                 <h1 class="col-xs-12 tagline">We strive to provide a most uniquely Quebecois experience!</h1>
                 <div class="col-xs-12 btn-group btn-group-justified" ng-init="nav.pages = ['Home','About','Properties','Contact','Blog']">
                     <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page}}" type="button" class="menunav btn btn-success shadow">{{page}}</a>
                 </div>
-<!--
+&lt;!&ndash;
                     <?php wp_nav_menu( array( 'items_wrap' => '<a id="%1$s" class="%2$s">%3$s</a>', 'depth' => 0) ); ?>
--->
+&ndash;&gt;
             </ul>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
 
             <div class="col-xs-12 col-sm-5 navbar-right">
                 <div class="featured-offer">
@@ -57,7 +74,7 @@
                     <?php endwhile; endif; ?>
                     <?php wp_reset_query(); ?>
                 </div>
-            </div>
+            </div>-->
     </nav>
 
 </header>

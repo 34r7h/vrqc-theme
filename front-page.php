@@ -2,13 +2,24 @@
     <?php get_header(); ?>
 </div>
 
-<div class="hidden-xs homepage-splash">
-    <?php
-        $post = get_post();
-        $title = $post->ID;
-        echo get_the_post_thumbnail($title, 'full');
-        wp_reset_query();
-    ?>
+<div>
+    <div class="hidden-xs homepage-splash">
+        <?php
+            $post = get_post();
+            $title = $post->ID;
+            echo get_the_post_thumbnail($title, 'full');
+            wp_reset_query();
+        ?>
+        <div class="featured-offer pull-right col-xs-12 col-sm-5" style="position: absolute; top:200px; right:0">
+            <?php
+                $cat_id = 5; //the certain category ID
+                $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
+            if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post();  ?>
+            <a href="<?php the_permalink() ?>"><?php echo get_the_post_thumbnail() ?></a>
+            <?php endwhile; endif; ?>
+            <?php wp_reset_query(); ?>
+        </div>
+    </div>
 </div>
 <br/>
 <div class="container-fluid">
