@@ -21,18 +21,18 @@
             <img class="hidden-xs navbar-text" src="/wp-content/uploads/2015/06/lesmaisons-logo.png" alt=""/>
             <img class="visible-xs navbar-btn" src="/wp-content/uploads/2015/06/lesmaisons-logo-long.png" alt=""/>
         </a>
-        <div class="col-xs-12 col-sm-8" ng-init="nav.pages = [['About','info'],['Suites','home'],['Contact','phone'],['Explore','street-view']]">
+        <div class="col-xs-12 col-sm-8" ng-init="nav.pages = [['Home','home'],['Suites','bed'],['About','info'],['Explore QC','street-view'],['Contact','phone']]">
             <div class="navbar-text col-xs-12">
                 <div class="col-xs-5 col-sm-5">
                     <b class="">Booking</b>
                     <div class="col-xs-12">
-                        <div>Fr: (581) 777-6339 </div>
-                        <div>En: (581) 777-6339 </div>
+                        <div>Fr: 1 581 777 3337 </div>
+                        <div>En: 1 450 679 0674 </div>
                     </div>
                 </div>
                 <div class="col-xs-5 col-sm-5 nomar nopad">
                     <b class="">Concierge</b>
-                    <div class="col-xs-12"> (581) 777-6339</div>
+                    <div class="col-xs-12"> 1 581 777 3339 </div>
                 </div>
                 <div class="col-xs-2 col-sm-2 nomar nopad"><span class="prisna pull-right"></span></div>
             </div>
