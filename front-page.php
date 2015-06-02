@@ -104,7 +104,7 @@
                 <h3 class="col-xs-12">
                     Short Term Rentals <em class="small">( Less than 30 days )</em>
                 </h3>
-                <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 1" class="col-xs-12 col-sm-4">
+                <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 0" class="col-xs-12 col-sm-4">
                         <div class="panel panel-default"><div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{key | uppercase}} BEDROOMS</b></div>
                         <div ng-repeat="property in roomCount" ng-if="property.custom_fields.term[0] === 'short'" class="panel-body">
                             <div class="col-xs-6">
