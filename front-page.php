@@ -34,8 +34,8 @@
 </div>
 <br>
 <div class="container-fluid">
-    <div class="col-xs-12 col-sm-6 light-text">
-        <h3 class="light-text">Latest Reviews</h3>
+    <div class="col-xs-12 col-sm-6 light-text panel panel-info">
+        <div class="panel-heading"><h3 class="light-text">Latest Reviews</h3></div>
     <?php
         // Posts per page setting
         $ppp = 2; // either use the WordPress global Posts per page setting or set a custom one like $ppp = 10;
@@ -58,7 +58,7 @@
     if ( count( $comments_list ) > 0 ) {
     $date_format = get_option( 'date_format' );
     foreach ( $comments_list as $comment ) {
-    echo '<i disabled class="col-xs-6 light-text">
+    echo '<i disabled class="col-xs-6 light-text panel-body">
         <div><span class="fa fa-quote-left"> '.substr( $comment->comment_content, 0, 250 ).'</span>&nbsp;<span class="fa fa-quote-right"></span></div>
 </i>
     ';
@@ -68,19 +68,19 @@
     }
     ?>
     </div>
-    <span ng-if="vrqc.weather.temperature_string" class="weather col-xs-12 col-sm-3">
-        <h3 class="light-text">Current Weather</h3>
-        <img style="height: 50px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
-        <span>{{vrqc.weather.weather}}&nbsp;</span>
-        <span>{{vrqc.weather.temperature_string}}&nbsp; </span>
+    <span ng-if="vrqc.weather.temperature_string" class="panel panel-info weather col-xs-12 col-sm-3">
+        <div class="panel-heading"><h3 class="light-text">Current Weather</h3></div>
+        <div class="panel-body"><img style="height: 50px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
+        <div>{{vrqc.weather.weather}}&nbsp;</div>
+        <div>{{vrqc.weather.temperature_string}}&nbsp; </div></div>
     </span>
-    <div class="col-xs-12 col-sm-3">
-        <h3 class="light-text">Featured Event</h3>
+    <div class="col-xs-12 col-sm-3 panel panel-info">
+        <div class="panel-heading"><h3 class="light-text">Featured Event</h3></div>
         <?php
                 $cat_id = 22; //the certain category ID
                 $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
         if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post();  ?>
-        <a href="<?php the_permalink() ?>"><?php echo get_the_post_thumbnail() ?></a>
+        <a class="panel-body" href="<?php the_permalink() ?>"><?php echo get_the_post_thumbnail() ?></a>
         <?php endwhile; endif; ?>
         <?php wp_reset_query(); ?>
     </div>
