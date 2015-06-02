@@ -94,6 +94,17 @@ button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
     height: 100%;
     margin: 1em 0;}
 .panel-default {box-shadow:2px 2px 3px rgba(5,8,13,.15); }
+.panel-dark {background:rgba(8,5,3,.80); border: rgba(0,0,0,.95)}
+.panel-dark>.panel-heading {
+    color: rgba(255, 253, 249, .95);
+    background-color: rgba(8,5,3,.90);
+    border-color: rgba(0,0,0,.95);
+}
+.panel-dark>.panel-body {
+    color: rgba(255, 253, 249, .95);
+    background:none;
+    border-color: rgba(0,0,0,.95);
+}
 .panel, .panel-heading, .panel-body {
     background:rgba(247,250,255,.96);
 }
