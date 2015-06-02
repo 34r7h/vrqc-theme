@@ -40,8 +40,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3338898">
-              <caret line="36" column="102" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+            <state vertical-scroll-proportion="0.524207">
+              <caret line="38" column="302" selection-start-line="38" selection-start-column="302" selection-end-line="38" selection-end-column="302" />
               <folding>
                 <element signature="e#2378#3095#0" expanded="false" />
                 <element signature="e#3108#5175#0" expanded="false" />
@@ -221,12 +221,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00005" summary="lining up">
-      <created>1428631093133</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1428631093133</updated>
     </task>
     <task id="LOCAL-00006" summary="lining up">
       <created>1428632742401</created>
@@ -516,7 +510,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433274426718</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="ending selina, starting nimet">
+      <created>1433274502955</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1433274502955</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -971,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3338898">
-          <caret line="36" column="102" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+        <state vertical-scroll-proportion="0.524207">
+          <caret line="38" column="302" selection-start-line="38" selection-start-column="302" selection-end-line="38" selection-end-column="302" />
           <folding>
             <element signature="e#2378#3095#0" expanded="false" />
             <element signature="e#3108#5175#0" expanded="false" />
