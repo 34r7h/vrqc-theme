@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -39,11 +40,11 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1736227">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.23706177">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
-                <element signature="e#2436#3153#0" expanded="false" />
-                <element signature="e#3166#5233#0" expanded="false" />
+                <element signature="e#2416#3133#0" expanded="false" />
+                <element signature="e#3146#5213#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -503,7 +504,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433273954939</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ending selina, starting nimet">
+      <created>1433273967589</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1433273967589</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -565,8 +572,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="22" selection-start-line="67" selection-start-column="16" selection-end-line="75" selection-end-column="22" />
           <folding>
-            <element signature="e#2436#3153#0" expanded="false" />
-            <element signature="e#3166#5233#0" expanded="false" />
+            <element signature="e#2416#3133#0" expanded="false" />
+            <element signature="e#3146#5213#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -958,11 +965,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1736227">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.23706177">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
-            <element signature="e#2436#3153#0" expanded="false" />
-            <element signature="e#3166#5233#0" expanded="false" />
+            <element signature="e#2416#3133#0" expanded="false" />
+            <element signature="e#3146#5213#0" expanded="false" />
           </folding>
         </state>
       </provider>

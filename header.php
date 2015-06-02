@@ -23,15 +23,15 @@
         </a>
         <div class="col-xs-12 col-sm-9" ng-init="nav.pages = [['About','info'],['Suites','home'],['Contact','phone'],['Explore','street-view']]">
             <div class="navbar-text col-xs-12">
-                <div class="col-xs-5 col-sm-4">
-                    <b class="pull-left">Booking</b>
-                    <span class="col-xs-12 col-sm-8">
+                <div class="col-xs-5 col-sm-5">
+                    <b class="">Booking</b>
+                    <div class="col-xs-12 col-sm-8">
                         <div>Fr: (581) 777-6339 </div>
                         <div>En: (581) 777-6339 </div>
-                    </span>
+                    </div>
                 </div>
-                <div class="col-xs-5 col-sm-4 nomar nopad">
-                    <b class="pull-left">Concierge</b>
+                <div class="col-xs-5 col-sm-3 nomar nopad">
+                    <b class="">Concierge</b>
                     <div class="col-xs-12 col-sm-8"> (581) 777-6339</div>
                 </div>
                 <div class="col-xs-2 col-sm-4 nomar nopad"><span class="  fa fa-flag btn btn-default pull-right"> Language</span></div>
