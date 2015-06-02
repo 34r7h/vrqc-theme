@@ -17,11 +17,11 @@
 <!--==============================header=================================-->
 <header class="clearfix">
     <nav class="navbar navbar-default top-nav nomar ">
-        <a href="<?php echo get_site_url(); ?>" class="col-xs-12 col-sm-3">
+        <a href="<?php echo get_site_url(); ?>" class="col-xs-12 col-sm-4">
             <img class="hidden-xs" src="/wp-content/uploads/2015/06/lesmaisons-logo.png" alt=""/>
             <img class="visible-xs" src="/wp-content/uploads/2015/06/lesmaisons-logo-long.png" alt=""/>
         </a>
-        <div class="col-xs-12 col-sm-9" ng-init="nav.pages = [['About','info'],['Suites','home'],['Contact','phone'],['Explore','street-view']]">
+        <div class="col-xs-12 col-sm-8" ng-init="nav.pages = [['About','info'],['Suites','home'],['Contact','phone'],['Explore','street-view']]">
             <div class="navbar-text col-xs-12">
                 <div class="col-xs-5 col-sm-5">
                     <b class="">Booking</b>
