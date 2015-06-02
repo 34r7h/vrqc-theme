@@ -25,14 +25,14 @@
             <div class="navbar-text col-xs-12">
                 <div class="col-xs-5 col-sm-5">
                     <b class="">Booking</b>
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-xs-12">
                         <div>Fr: (581) 777-6339 </div>
                         <div>En: (581) 777-6339 </div>
                     </div>
                 </div>
                 <div class="col-xs-5 col-sm-5 nomar nopad">
                     <b class="">Concierge</b>
-                    <div class="col-xs-12 col-sm-8"> (581) 777-6339</div>
+                    <div class="col-xs-12"> (581) 777-6339</div>
                 </div>
                 <div class="col-xs-2 col-sm-2 nomar nopad"><span class="  fa fa-flag btn btn-default pull-right"> Language</span></div>
             </div>
