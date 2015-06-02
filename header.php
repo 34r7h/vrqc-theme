@@ -34,7 +34,7 @@
                     <b class="">Concierge</b>
                     <div class="col-xs-12"> (581) 777-6339</div>
                 </div>
-                <div class="col-xs-2 col-sm-2 nomar nopad"><span class="prisna pull-right"></span></div>
+                <div class="col-xs-2 col-sm-2 nomar nopad"><span class="prisna pull-right" style="-webkit-box-shadow: 0 0 3px blur rgba(255,255,255,.9);-moz-box-shadow: 0 0 3px blur rgba(255,255,255,.9);box-shadow: 0 0 3px blur rgba(255,255,255,.9);"></span></div>
             </div>
             <span class="col-xs-12 col-sm-9 nopad nomar noborderrad navbar-btn btn-group btn-group-justified"><a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="fa fa-{{page[1]}} menunav btn btn-success shadow"> <b>{{page[0]}}</b></a></span>
         </div>
