@@ -121,16 +121,15 @@
                 <h3 class="col-xs-12">
                     Long Term Rentals <em class="small">( Minimum 30 days )</em>
                 </h3>
-                <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 1" class="col-xs-12 col-sm-4">
-                        <div class="panel panel-default"><div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{key | uppercase}} BEDROOMS</b></div>
-                        <div ng-repeat="property in roomCount" ng-if="property.custom_fields.term[0] === 'long'" class="panel-body">
-                            <div class="col-xs-6">
-                                <a class="red-text" ng-href="{{property.url}}">
+                <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 0" class="col-xs-12 col-sm-4">
+                    <div class="panel panel-default"><div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{key | uppercase}} BEDROOMS</b></div>
+                        <div class="panel-body">
+                            <div class="col-xs-6" ng-repeat="property in roomCount" ng-if="property.custom_fields.term[0] === 'long'" >
+                                <a class="red-text"  ng-href="{{property.url}}">
                                     <b>{{property.title}}</b>
                                     <img ng-src="{{property.thumbnail}}">
                                 </a>
                             </div>
-
                         </div></div>
                 </div>
 
