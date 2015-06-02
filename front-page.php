@@ -34,8 +34,8 @@
 </div>
 <br>
 <div class="container-fluid">
-    <div class="col-xs-12 col-sm-6 light-text panel panel-info">
-        <div class="panel-heading"><h3 class="light-text">Latest Reviews</h3></div>
+    <div class="col-xs-12 col-sm-6 light-text">
+        <div class=" panel panel-info"><div class="panel-heading"><h3 class="light-text">Latest Reviews</h3></div>
     <?php
         // Posts per page setting
         $ppp = 2; // either use the WordPress global Posts per page setting or set a custom one like $ppp = 10;
@@ -66,7 +66,7 @@
     } else {
     echo '<p>No comments</p>';
     }
-    ?>
+    ?></div>
     </div>
     <span ng-if="vrqc.weather.temperature_string" class="panel panel-info weather col-xs-12 col-sm-3">
         <div class="panel-heading"><h3 class="light-text">Current Weather</h3></div>
