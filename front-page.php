@@ -84,15 +84,15 @@
     </span>
 
     <div class="col-xs-12 col-sm-3">
-        <div class=" panel panel-dark"><div class="panel-heading"><h3 class="light-text">Featured Event</h3></div>
-        <?php
+        <div class="panel panel-dark"><div class="panel-heading"><h3 class="light-text">Featured Event</h3></div>
+        <div class="panel-body"><?php
                 $cat_id = 22; //the certain category ID
                 $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
         if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post();
         ?>
         <a class="panel-body" href="<?php the_permalink() ?>"><?php echo get_the_post_thumbnail() ?></a>
         <?php endwhile; endif; ?>
-        <?php wp_reset_query(); ?></div>
+        <?php wp_reset_query(); ?></div></div>
     </div>
 </div>
 <br class="">
