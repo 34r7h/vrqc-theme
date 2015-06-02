@@ -97,16 +97,16 @@ button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
 .panel.panel-dark {background:rgba(5,2,1,.88);}
 .panel-dark>.panel-heading {
     color: rgba(255, 253, 249, .95);
-    background-color: rgba(255, 253, 249,.08);
-    border-color: rgba(255, 253, 249,.18);
+    background-color: rgba(255, 253, 249,.04);
+    border-color: rgba(255, 253, 249,.08);
 }
 .panel-dark>.panel-body {
     color: rgba(255, 253, 249, .95);
-    background-color: rgba(255, 253, 249,.18);
-    border-color: rgba(255, 253, 249,.18);
+    background-color: rgba(255, 253, 249,.08);
+    border-color: rgba(255, 253, 249,.08);
 }
 .panel, .panel-heading, .panel-body {
-    background:rgba(255,250,247,.96);
+    background:rgba(255,250,247,.62);
 }
 .blurry-bg {
     background: url("/wp-content/uploads/2015/06/blurry-bg.png");
