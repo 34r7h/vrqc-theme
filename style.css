@@ -98,7 +98,7 @@ button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
     background:rgba(247,250,255,.96);
 }
 .blurry-bg {
-    background: url("/vrqc/wp-content/uploads/2015/06/blurry-bg.png");
+    background: url("/wp-content/uploads/2015/06/blurry-bg.png");
     background-size: 100% 100%;
 }
 .well {box-shadow:3px 3px 4px rgba(5,8,13,.1) inset;  background:rgba(232,237,240,.96)}
