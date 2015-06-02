@@ -18,8 +18,8 @@
 <header class="clearfix">
     <nav class="navbar navbar-default top-nav nomar ">
         <a href="<?php echo get_site_url(); ?>" class="col-xs-12 col-sm-4">
-            <img class="hidden-xs" src="/wp-content/uploads/2015/06/lesmaisons-logo.png" alt=""/>
-            <img class="visible-xs" src="/wp-content/uploads/2015/06/lesmaisons-logo-long.png" alt=""/>
+            <img class="hidden-xs navbar-text" src="/wp-content/uploads/2015/06/lesmaisons-logo.png" alt=""/>
+            <img class="visible-xs navbar-btn" src="/wp-content/uploads/2015/06/lesmaisons-logo-long.png" alt=""/>
         </a>
         <div class="col-xs-12 col-sm-8" ng-init="nav.pages = [['About','info'],['Suites','home'],['Contact','phone'],['Explore','street-view']]">
             <div class="navbar-text col-xs-12">
