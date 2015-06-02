@@ -106,7 +106,7 @@ button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
     border-color: rgba(255, 253, 249,.18);
 }
 .panel, .panel-heading, .panel-body {
-    background:rgba(247,250,255,.96);
+    background:rgba(255,250,247,.96);
 }
 .blurry-bg {
     background: url("/wp-content/uploads/2015/06/blurry-bg.png");
