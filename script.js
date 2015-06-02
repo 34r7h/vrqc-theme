@@ -24,9 +24,11 @@ app.controller('vrqcPropCtrl', function($scope, data){
                         index.propertyPostsById[post.id]=post.slug;
                         //console.log('property posts',post);
 
-                        if (post.custom_fields.roomcount[0] === '2'){
+                        if (post.custom_fields.roomcount[0] === '1'){
+                            index.propertyPostsByRoomcount['1'].push(post);
+                        } else if (post.custom_fields.roomcount[0] === '2'){
                             index.propertyPostsByRoomcount['2'].push(post);
-                        } else if (post.custom_fields.roomcount[0] === '3'){
+                        }  else if (post.custom_fields.roomcount[0] === '3'){
                             index.propertyPostsByRoomcount['3'].push(post);
                         } else {
                             index.propertyPostsByRoomcount.many.push(post);
