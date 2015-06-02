@@ -1,9 +1,6 @@
 <footer>
-        <?php if ( is_active_sidebar( 'sidebar-footer' ) ) : ?>
-        <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-            <?php dynamic_sidebar( 'sidebar-footer' ); ?>
-        </div><!-- #primary-sidebar -->
-        <?php endif; ?>
+        
+
     <nav class="navbar navbar-default navbar-fixed-bottom bottom-nav">
         <div class="col-xs-12">
             <span class="btn btn-group navbar-left">
@@ -15,11 +12,7 @@
             </a></span>
             <span class="navbar-right">
                 <span class="navbar-text" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </span>
-                <span ng-if="vrqc.weather.temperature_string" class="weather navbar-text">
-                    <img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}" alt="quebec city weather from vacationrentalsquebeccity.com"/>
-                    <span>{{vrqc.weather.weather}}&nbsp;</span>
-                    <span>{{vrqc.weather.temperature_string}}&nbsp; </span>
-                </span>
+
             </span>
 
         </div>

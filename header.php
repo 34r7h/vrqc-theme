@@ -16,21 +16,23 @@
 <body ng-controller="vrqcPropCtrl">
 <!--==============================header=================================-->
 <header class="clearfix">
-    <nav class="navbar navbar-default navbar-fixed-top top-nav">
-        <div class="pull-right col-xs-12">
-            <span class="navbar-text">
-                <h3 class="nomar">Reservations</h3>
-            </span>
-            <span class="navbar-text dark-text nomar">
-                <div>English: <b class="pull-right">1 (581) 777-6339</b></div>
-                <div>Francais: <b class="pull-right">1 (581) 777-6339</b></div>
-            </span>
-            <span class="navbar-text dark-text">
-                <h3 class="nomar">Concierge</h3>
-            </span>
-            <span class="navbar-text dark-text"><b class="pull-right">1 (581) 777-6339</b></span>
-            <span class="navbar-btn btn btn-default pull-right">Language</span>
+    <nav class="navbar navbar-default top-nav nomar ">
+        <a href="<?php get_site_url(); ?>" class="col-xs-12 col-sm-3">
+            <img class="hidden-xs" src="wp-content/uploads/2015/06/lesmaisons-logo.png" alt=""/>
+            <img class="visible-xs" src="wp-content/uploads/2015/06/lesmaisons-logo-long.png" alt=""/>
+        </a>
+        <div class="col-xs-12 col-sm-9" ng-init="nav.pages = [['About','info'],['Suites','home'],['Contact','phone'],['Explore','street-view']]">
+            <div class="navbar-text col-xs-12">
+                <div class="col-xs-6 col-sm-4"><b class="">Reservations</b>
+                <span class=""> (581)777-6339 </span></div>
+                <div class="col-xs-6 col-sm-4 nomar nopad"><b class="">Concierge</b>
+                <span class=""> (581)777-6339</span></div>
+                <div class="col-xs-12 col-sm-4 nomar nopad"><span class="  fa fa-flag btn btn-default pull-right"> Language</span></div>
+            </div>
+            <span class="col-xs-12 col-sm-9 nopad nomar noborderrad navbar-btn btn-group btn-group-justified"><a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="fa fa-{{page[1]}} menunav btn btn-success shadow"> <b>{{page[0]}}</b></a></span>
         </div>
+
+
         <!--<div class="col-xs-12">
             <a class="navbar-left navbar-text" href="<?php echo get_site_url(); ?>">
                 <img class="navbar-left" style="width: 40px; height: auto;" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
@@ -44,15 +46,14 @@
         </div>-->
 
     </nav>
-    <br/>
-    <nav class="navbar navbar-default">
-        <br/>
+<!--
+    <nav class="navbar navbar-default nomar">
         <b class="col-xs-12 col-sm-4 btn btn-default navbar-btn btn-lg"><h2>Les Maisons Montcalm</h2></b>
         <div class="col-xs-12 col-sm-8" ng-init="nav.pages = ['About','Suites','Contact','Explore QC']">
             <span class="navbar-btn btn-group btn-group-justified"><a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page}}" type="button" class="menunav btn btn-success shadow">{{page}}</a></span>
         </div>
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <!--<ul class="navbar-header col-xs-12 col-sm-7">
+            &lt;!&ndash; Brand and toggle get grouped for better mobile display &ndash;&gt;
+            &lt;!&ndash;<ul class="navbar-header col-xs-12 col-sm-7">
                 <h1 class="col-xs-12 tagline">We strive to provide a most uniquely Quebecois experience!</h1>
                 <div class="col-xs-12 btn-group btn-group-justified" ng-init="nav.pages = ['Home','About','Properties','Contact','Blog']">
                     <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page}}" type="button" class="menunav btn btn-success shadow">{{page}}</a>
@@ -74,7 +75,8 @@
                     <?php endwhile; endif; ?>
                     <?php wp_reset_query(); ?>
                 </div>
-            </div>-->
+            </div>&ndash;&gt;
     </nav>
+-->
 
 </header>
