@@ -77,7 +77,7 @@
     <div class="col-xs-12 col-sm-3">
         <h3 class="light-text">Featured Event</h3>
         <?php
-                $cat_id = 18; //the certain category ID
+                $cat_id = 22; //the certain category ID
                 $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
         if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post();  ?>
         <a href="<?php the_permalink() ?>"><?php echo get_the_post_thumbnail() ?></a>
