@@ -24,8 +24,11 @@
         <div class="col-xs-12 col-sm-9" ng-init="nav.pages = [['About','info'],['Suites','home'],['Contact','phone'],['Explore','street-view']]">
             <div class="navbar-text col-xs-12">
                 <div class="col-xs-5 col-sm-4">
-                    <b class="pull-left col-xs-12 col-xs-6">Reservations</b>
-                    <div class=""> (581) 777-6339 </div>
+                    <b class="pull-left col-xs-12 col-xs-6">Booking</b>
+                    <span class="">
+                        <div>Fr: (581) 777-6339 </div>
+                        <div>En: (581) 777-6339 </div>
+                    </span>
                 </div>
                 <div class="col-xs-5 col-sm-4 nomar nopad">
                     <b class="pull-left col-xs-12 col-sm-6">Concierge</b>
