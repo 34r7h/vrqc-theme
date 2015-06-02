@@ -40,11 +40,11 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45047924">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.35942492">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
-                <element signature="e#2184#2901#0" expanded="false" />
-                <element signature="e#2914#4981#0" expanded="false" />
+                <element signature="e#2189#2906#0" expanded="false" />
+                <element signature="e#2919#4986#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -423,7 +423,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433271304007</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="ending selina, starting nimet">
+      <created>1433272923695</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1433272923695</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -485,8 +491,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="22" selection-start-line="67" selection-start-column="16" selection-end-line="75" selection-end-column="22" />
           <folding>
-            <element signature="e#2184#2901#0" expanded="false" />
-            <element signature="e#2914#4981#0" expanded="false" />
+            <element signature="e#2189#2906#0" expanded="false" />
+            <element signature="e#2919#4986#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,11 +884,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45047924">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.35942492">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
-            <element signature="e#2184#2901#0" expanded="false" />
-            <element signature="e#2914#4981#0" expanded="false" />
+            <element signature="e#2189#2906#0" expanded="false" />
+            <element signature="e#2919#4986#0" expanded="false" />
           </folding>
         </state>
       </provider>
