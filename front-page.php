@@ -16,12 +16,6 @@
         </div>
     </div>
     <div class="hidden-xs homepage-splash ">
-        <?php
-            $post = get_post();
-            $title = $post->ID;
-        echo get_the_post_thumbnail($title, 'full');
-        wp_reset_query();
-        ?>
         <div class="featured-offer pull-right col-xs-12 col-sm-5" style="position: absolute; top:200px; right:0">
             <?php
                 $cat_id = 5; //the certain category ID
@@ -32,6 +26,12 @@
             <?php endwhile; endif; ?>
             <?php wp_reset_query(); ?>
         </div>
+        <?php
+            $post = get_post();
+            $title = $post->ID;
+        echo get_the_post_thumbnail($title, 'full');
+        wp_reset_query();
+        ?>
     </div>
 </div>
 <br>
