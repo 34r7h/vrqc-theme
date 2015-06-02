@@ -102,7 +102,7 @@ button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
 }
 .panel-dark>.panel-body {
     color: rgba(255, 253, 249, .95);
-    background:none;
+    background-color: rgba(8,5,3,.90);
     border-color: rgba(0,0,0,.95);
 }
 .panel, .panel-heading, .panel-body {
