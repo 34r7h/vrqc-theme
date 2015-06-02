@@ -118,7 +118,7 @@
                 </h3>
 
                 <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 0"
-                     class="col-xs-12 col-sm-4">
+                     class="col-xs-12 col-sm-3">
                     <div class="panel panel-default">
                         <div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{key | uppercase}}
                             BEDROOMS</b></div>
@@ -141,7 +141,7 @@
                 </h3>
 
                 <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 0"
-                     class="col-xs-12 col-sm-4">
+                     class="col-xs-12 col-sm-3">
                     <div class="panel panel-default">
                         <div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{key | uppercase}}
                             BEDROOMS</b></div>
