@@ -37,8 +37,9 @@
 <br>
 <div class="container-fluid">
     <div class="col-xs-12 col-sm-6 light-text">
-        <div class=" panel panel-dark">
+        <div class="panel panel-dark">
             <div class="panel-heading"><h3 class="light-text">Latest Reviews</h3></div>
+            <div class="panel-body">
             <?php
         // Posts per page setting
         $ppp = 2; // either use the WordPress global Posts per page setting or set a custom one like $ppp = 10;
@@ -61,7 +62,7 @@
             if ( count( $comments_list ) > 0 ) {
             $date_format = get_option( 'date_format' );
             foreach ( $comments_list as $comment ) {
-            echo '<i disabled class="col-xs-6 light-text panel-body">
+            echo '<i disabled class="col-xs-6 light-text">
             <div><span class="fa fa-quote-left"> '.substr( $comment->comment_content, 0, 250 ).'</span>&nbsp;<span
                     class="fa fa-quote-right"></span></div>
         </i>
@@ -71,6 +72,7 @@
             echo '<p>No comments</p>';
             }
             ?>
+            </div>
         </div>
     </div>
     <span ng-if="vrqc.weather.temperature_string" class="weather col-xs-12 col-sm-3">
