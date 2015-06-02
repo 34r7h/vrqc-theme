@@ -11,7 +11,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
 }).factory('data', function($http, $timeout, $location, $sce, $rootScope){
     var vrqc = {propertiesData:{}, propertiesObject:{}, postsData:{}, postsObject:{}, postData:{}, offersData:{}, weather:{}};
     var nav = {property: ['Overview','Rates','Location','Reviews'],properties: ['All', '1 BR', '2 BR', '3 BR', '4+ BR'], categories:[]};
-    var index = {postsById:{}, postsBySlug:{}, postsByCategory:{}, propertiesById:{},propertiesBySlug:{},propertyPostsById:{},propertyPostsBySlug:{},propertyPostsByRoomcount:{'2':[],'3':[],many:[]}};
+    var index = {postsById:{}, postsBySlug:{}, postsByCategory:{}, propertiesById:{},propertiesBySlug:{},propertyPostsById:{},propertyPostsBySlug:{},propertyPostsByRoomcount:{'1':[],'2':[],'3':[],'4':[],many:[]}};
     $timeout(function(){
 
         // Property Posts
@@ -28,8 +28,10 @@ app.controller('vrqcPropCtrl', function($scope, data){
                             index.propertyPostsByRoomcount['1'].push(post);
                         } else if (post.custom_fields.roomcount[0] === '2'){
                             index.propertyPostsByRoomcount['2'].push(post);
-                        }  else if (post.custom_fields.roomcount[0] === '3'){
+                        } else if (post.custom_fields.roomcount[0] === '3'){
                             index.propertyPostsByRoomcount['3'].push(post);
+                        } else if (post.custom_fields.roomcount[0] === '4'){
+                            index.propertyPostsByRoomcount['4'].push(post);
                         } else {
                             index.propertyPostsByRoomcount.many.push(post);
                         }
