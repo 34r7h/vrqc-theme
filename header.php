@@ -21,7 +21,7 @@
             <img class="hidden-xs navbar-text" src="/wp-content/uploads/2015/05/logo-for-website-transparent.png" alt=""/>
             <img class="visible-xs navbar-btn" src="/wp-content/uploads/2015/05/logo-for-website-transparent.png" alt=""/>
         </a>
-        <div class="col-xs-12 col-sm-8" ng-init="nav.pages = [['','home'],['Suites','bed'],['About','info'],['Explore QC','street-view'],['Contact','phone']]">
+        <div class="col-xs-12 col-sm-7 pull-right" ng-init="nav.pages = [['','home'],['Suites','bed'],['About','info'],['Explore QC','street-view'],['Contact','phone']]">
             <div class="navbar-text col-xs-12">
                 <div class="col-xs-5 col-sm-5">
                     <h3 class="nomar light-text">Booking</h3>
