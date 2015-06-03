@@ -1,5 +1,7 @@
 <footer>
-        
+    <hr/>
+    <hr/>
+    <hr/>
 
     <nav class="navbar navbar-default navbar-fixed-bottom bottom-nav">
         <div class="col-xs-12">
