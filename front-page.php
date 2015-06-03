@@ -76,7 +76,7 @@
         </div>
     </div>
     <span ng-if="vrqc.weather.temperature_string" class="weather col-xs-12 col-sm-3">
-        <div class="panel panel-dark"><div class="panel-heading"><h3 class="light-text">Current Weather</h3></div>
+        <div class="panel panel-dark"><div class="panel-heading"><h3 class="light-text fa fa-umbrella"> Current Weather</h3></div>
         <div class="panel-body"><img style="height: 50px; width: auto" ng-src="{{vrqc.weather.icon_url}}"
                                      alt="quebec city weather from vacationrentalsquebeccity.com"/>
 
@@ -86,7 +86,7 @@
     </span>
 
     <div class="col-xs-12 col-sm-3">
-        <div class="panel panel-dark"><div class="panel-heading"><h3 class="light-text">Featured Event</h3></div>
+        <div class="panel panel-dark"><div class="panel-heading"><h3 class="light-text fa fa-calendar"> Featured Event</h3></div>
         <div class="panel-body"><?php
                 $cat_id = 22; //the certain category ID
                 $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
