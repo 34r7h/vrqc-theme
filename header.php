@@ -38,7 +38,7 @@
             </div>
             <div class="col-xs-12 col-sm-11 pull-right">
                 <span class="nopad nomar noborderrad navbar-btn btn-group btn-group-justified">
-                    <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="menunav btn btn-success shadow nomar nopad">
+                    <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="menunav btn btn-success shadow">
                         <i class="fa fa-{{page[1]}}"> <b class="">{{page[0]}}</b></i>
 
                     </a>
