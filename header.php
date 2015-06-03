@@ -36,11 +36,14 @@
                 </div>
                 <div class="col-xs-2 col-sm-2 nomar nopad"><span class="prisna pull-right"></span></div>
             </div>
-            <div class="col-xs-12 col-sm-11 pull-right"><span class="nopad nomar noborderrad navbar-btn btn-group btn-group-justified">
-                <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="fa fa-{{page[1]}} menunav btn btn-success shadow">
-                    <b>{{page[0]}}</b>
-                </a>
-            </span></div>
+            <div class="col-xs-12 col-sm-11 pull-right">
+                <span class="nopad nomar noborderrad navbar-btn btn-group btn-group-justified">
+                    <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="menunav btn btn-success shadow nomar nopad">
+                        <i class="fa fa-{{page[1]}}"> <b class="">{{page[0]}}</b></i>
+
+                    </a>
+                </span>
+            </div>
         </div>
 
 
