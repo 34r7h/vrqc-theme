@@ -22,12 +22,12 @@
             <img class="visible-xs navbar-btn" src="/wp-content/uploads/2015/05/logo-for-website-transparent.png" alt=""/>
         </a>
         <div class="col-xs-12 col-sm-9" ng-init="nav.pages = [['','home'],['Suites','bed'],['About','info'],['Explore QC','street-view'],['Contact','phone']]">
-            <div class="navbar-text col-xs-12">
+            <div class="navbar-text col-xs-12 text-center">
                 <div class="col-xs-5 col-sm-5">
                     <h3 class="nomar light-text">Booking</h3>
                     <div class="col-xs-12">
-                        <div>Fr: <a href="tel:15817773337" class="light-text"><b>1 581 777 3337</b></a> </div>
-                        <div>En: <a href="tel:14506790674" class="light-text"><b>1 450 679 0674</b></a></div>
+                        <div>Fr: <a href="tel:14506790674" class="light-text"><b>1 450 679 0674</b></a></div>
+                        <div>En:  <a href="tel:15817773337" class="light-text"><b>1 581 777 3337</b></a> </div>
                     </div>
                 </div>
                 <div class="col-xs-5 col-sm-5 nomar nopad">
