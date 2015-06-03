@@ -54,7 +54,7 @@ Some other comments or urls here that will prove useful reminders to you or anot
 .dark-text {
     color:rgba(25,15,10,.90) !important;
 }
-.light-text {
+.light-text{
     color:rgba(255,253,251,.90) !important;
 }
 a {color:rgba(255,250,240,.81);
@@ -63,7 +63,7 @@ a {color:rgba(255,250,240,.81);
 a:hover {color:rgba(255,250,240,.98);
     border-bottom: 3px rgba(228,9,30,.98);
 }
-a.red-text {
+a.red-text, .comment-form a  {
     color: rgba(228,9,30,.98);
 }
 h1, h2, h3, h4, h5, h6 {

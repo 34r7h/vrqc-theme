@@ -136,13 +136,6 @@
                         <?php endwhile; ?>
                     </div>
                     <?php endif; ?>
-                    <!--<h2>Photos</h2>
-                    <hr/>
-                    <div ng-repeat="img in imageList track by $index">
-                        <img ng-show="$parent.gallery[$index]" ng-src="{{img.url}}" alt="{{img.alt}}" ng-style="fullSize={width:'100%',padding:'.5em 0'}" ng-click="$parent.gallery[$index]=!$parent.gallery[$index];"/>
-                        <img ng-show="!$parent.gallery[$index]" ng-src="{{img.url}}" alt="{{img.alt}}" class="col-xs-3 smallpad" ng-click="$parent.gallery = {}; $parent.gallery[$index]=!$parent.gallery[$index];"/>
-                        <hr ng-if="($index+1) % 4 === 0" class="col-xs-12"/>
-                    </div>-->
 
                 </div>
                 <div ng-show="show.propertySection ==='Overview' || show.propertySection ==='Reviews'" class="col-xs-12 well">
