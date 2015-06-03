@@ -145,7 +145,7 @@
             </div>
         </div>
     </article>
-    <aside class="col-xs-12 col-sm-4">
+    <aside class="col-xs-12 col-sm-4 light-text">
         <?php get_sidebar('property'); ?>
     </aside>
 </div>
