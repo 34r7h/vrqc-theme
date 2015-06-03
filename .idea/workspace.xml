@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-property.php" afterPath="$PROJECT_DIR$/single-property.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -255,12 +254,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00067" summary="ending selina, starting nimet">
-      <created>1433277365126</created>
-      <option name="number" value="00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1433277365126</updated>
     </task>
     <task id="LOCAL-00068" summary="ending selina, starting nimet">
       <created>1433277497343</created>
@@ -550,7 +543,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433357367163</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="suites page quick info fix">
+      <created>1433357715548</created>
+      <option name="number" value="00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1433357715548</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="ToolWindowManager">
