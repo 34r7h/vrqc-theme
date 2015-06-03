@@ -17,7 +17,7 @@
                                  ng-if="property.custom_fields.term[0] === 'short'">
                                 <div class="col-xs-4 col-sm-2">
                                     <img ng-src="{{property.thumbnail}}">
-                                    <h5 class="fa fa-cube col-sm-4 visible-xs light-text"> {{property.custom_fields.roomcount[0]}} BR
+                                    <h5 class="fa fa-cube col-sm-4 visible-xs light-text"> {{property.custom_fields.roomcount[0]}}br
                                     </h5>
                                 </div>
                                 <div class="hidden-xs col-sm-7">
@@ -43,7 +43,8 @@
                                             <div ng-if="property.custom_fields.term[0]==='short'">2 Night Min.</div>
                                         <div ng-if="property.custom_fields.term[0]==='long'">30 Night Min.</div></div>
                                     </div>
-                                    <a ng-href="{{property.url}}" class="btn btn-default col-xs-12 nomar">Book</a>
+                                    <br/>
+                                    <a ng-href="{{property.url}}" class="btn btn-default col-xs-12">Book</a>
                                 </div>
                                 <hr class="col-xs-12" style="opacity:.21"/>
                             </div>
@@ -65,7 +66,7 @@
                                  ng-if="property.custom_fields.term[0] === 'long'">
                                 <div class="col-xs-4 col-sm-2">
                                     <img ng-src="{{property.thumbnail}}">
-                                    <h5 class="fa fa-cube col-sm-4 visible-xs light-text"> {{property.custom_fields.roomcount[0]}} BR
+                                    <h5 class="fa fa-cube col-sm-4 visible-xs light-text"> {{property.custom_fields.roomcount[0]}}br
                                     </h5>
                                 </div>
                                 <div class="hidden-xs col-sm-7">
