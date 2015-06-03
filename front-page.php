@@ -110,13 +110,13 @@
 
                 <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 0"
                      class="col-xs-12 col-sm-6">
-                    <div class="panel panel-default">
+                    <div class="panel panel-dark">
                         <div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{key | uppercase}}
                             BEDROOMS</b></div>
                         <div class="panel-body">
                             <div class="col-xs-6" ng-repeat="property in roomCount"
                                  ng-if="property.custom_fields.term[0] === 'short'">
-                                <a class="red-text" ng-href="{{property.url}}">
+                                <a class="light-text" ng-href="{{property.url}}">
                                     <b>{{property.title}}</b>
                                     <img ng-src="{{property.thumbnail}}">
                                 </a>
@@ -133,7 +133,7 @@
 
                 <div ng-repeat="(key,roomCount) in index.propertyPostsByRoomcount" ng-show="roomCount.length > 0"
                      class="col-xs-12 col-sm-6">
-                    <div class="panel panel-default">
+                    <div class="panel panel-dark">
                         <div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{key | uppercase}}
                             BEDROOMS</b></div>
                         <div class="panel-body">
