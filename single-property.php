@@ -15,7 +15,17 @@
                     echo $property->post_title;
                     ?>
                 </h1>
+                <div class="table-responsive">
+                    <table class="table nomar">
+                        <tr>
+                            <th class="text-center"><i class="fa fa-cube"></i> <?php $meta = get_post_meta( get_the_ID(), 'roomcount' ); echo $meta[0] ?> Bedrooms</th>
+                            <th class="text-center"><i class="fa fa-bed"></i> Sleeps <?php $meta = get_post_meta( get_the_ID(), 'sleeps' ); echo $meta[0] ?></th>
+                            <th class="text-center"><i class="fa fa-toggle-down"></i> <?php $meta = get_post_meta( get_the_ID(), 'bathrooms' ); echo $meta[0] ?> Bathrooms</th>
+                        </tr>
+                    </table>
+                </div>
             </div>
+
             <div ng-init="sliderImage=imageList[0].url; sliderAlt = imageList[0].alt; sliderIndex = 0" class="property-featured">
                 <!-- <?php echo get_the_post_thumbnail(); ?> -->
                 <div class="pull-right" style="position:relative; height:0; top:40px; right:8px;">
@@ -30,30 +40,15 @@
                     <img style="max-height: 50px" ng-show="!$parent.gallery[$index]" ng-src="{{img.url}}" alt="{{img.alt}}" class="col-xs-2 smallpad" ng-click="$parent.sliderImage=img.url; $parent.sliderAlt=img.alt; $parent.sliderIndex=$index"/>
                 </div></div>
             </div>
-            <div ng-init="show.propertySection='Overview'" class="col-xs-12 btn-group btn-group-justified">
-                <a ng-repeat="(key, section) in nav.property" ng-click='$parent.show.propertySection={}; $parent.show.propertySection=section' type="button" class="menunav btn btn-success shadow">{{section}}</a>
+
+
+            <div ng-init="show.propertySection='Overview'" class="col-xs-12">
+                <div class="btn-group btn-group-justified"><a ng-repeat="(key, section) in nav.property" ng-click='$parent.show.propertySection={}; $parent.show.propertySection=section' type="button" class="menunav btn btn-success shadow">{{section}}</a></div>
             </div>
 
 
             <div class="panel-body">
-                <div class="col-xs-12 well">
-                    <div class="table-responsive"><table class="table">
-                        <tr><th>Rooms</th><th>Sleeps</th><th>Bathrooms</th></tr>
-                        <tr>
-                            <td>
-                                <?php $meta = get_post_meta( get_the_ID(), 'roomcount' ); echo $meta[0] ?>
-                            </td>
 
-                            <td>
-                                <?php $meta = get_post_meta( get_the_ID(), 'sleeps' ); echo $meta[0] ?>
-                            </td>
-                            <td>
-                                <?php $meta = get_post_meta( get_the_ID(), 'bathrooms' ); echo $meta[0] ?>
-                            </td>
-                        </tr>
-
-                    </table></div>
-                </div>
                 <div ng-show="show.propertySection ==='Overview'" class="col-xs-12 well">
                     <h2>Overview</h2>
                     <hr/>
