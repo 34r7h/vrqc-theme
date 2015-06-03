@@ -239,3 +239,7 @@ span.nav-brand {
 */
     color: rgba(241, 240, 247, 0.85);
 }
+
+#easy_form_success b.easy_submit {
+    color:white;
+}
