@@ -36,11 +36,12 @@
                                     <a class="red-text visible-xs" ng-href="{{property.url}}">
                                         <h2>{{property.title}}</h2>
                                     </a>
-                                    <i class="fa fa-dollar fa-2x"> {{property.custom_fields.reservations_groundprice[0]}} </i>
+                                    <i class="fa fa-dollar fa-2x col-xs-6 col-sm-12">{{property.custom_fields.reservations_groundprice[0]}}</i>
                                     <div class="small">
-                                        <b>Per night. CAD</b>
-                                        <div ng-if="property.custom_fields.term[0]==='short'">2 Night Min.</div>
-                                        <div ng-if="property.custom_fields.term[0]==='long'">30 Night Min.</div>
+                                        <div class="col-xs-6  col-sm-12">
+                                            <b>Per night. CAD</b>
+                                            <div ng-if="property.custom_fields.term[0]==='short'">2 Night Min.</div>
+                                        <div ng-if="property.custom_fields.term[0]==='long'">30 Night Min.</div></div>
                                     </div>
                                     <a ng-href="{{property.url}}" class="btn btn-default col-xs-12 nomar">Book</a>
                                 </div>
@@ -83,13 +84,14 @@
                                     <a class="red-text visible-xs" ng-href="{{property.url}}">
                                         <h2>{{property.title}}</h2>
                                     </a>
-                                    <i class="fa fa-dollar fa-2x"> {{property.custom_fields.reservations_groundprice[0]}} </i>
+                                    <i class="fa fa-dollar fa-2x col-xs-6 col-sm-12">{{property.custom_fields.reservations_groundprice[0]}}</i>
                                     <div class="small">
-                                        <b>Per night. CAD</b>
-                                        <div ng-if="property.custom_fields.term[0]==='short'">2 Night Min.</div>
-                                        <div ng-if="property.custom_fields.term[0]==='long'">30 Night Min.</div>
+                                        <div class="col-xs-6  col-sm-12">
+                                            <b>Per night. CAD</b>
+                                            <div ng-if="property.custom_fields.term[0]==='short'">2 Night Min.</div>
+                                            <div ng-if="property.custom_fields.term[0]==='long'">30 Night Min.</div></div>
                                     </div>
-                                    <a href="" class="btn btn-default col-xs-12 nomar">Book</a>
+                                    <a ng-href="{{property.url}}" class="btn btn-default col-xs-12 nomar">Book</a>
                                 </div>
                                 <hr class="col-xs-12" style="opacity:.21"/>
 
