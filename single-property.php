@@ -11,9 +11,9 @@
     <img ng-src="{{bigPicture}}" alt="{{sliderAlt}}"/>
 </div>
 <div class="clearfix">
-    <article class="col-xs-12 col-sm-8 property">
+    <article class="col-xs-12 col-sm-8 property nopad nomar">
 
-        <div class="panel panel-default">
+        <div class="panel panel-default noborderrad">
             <h1 class="panel-heading">
                 <i class="fa fa-home">
                     <?php
