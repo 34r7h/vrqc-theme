@@ -31,7 +31,7 @@
                     <button class="fa fa-2x fa-arrow-circle-o-right" ng-show="sliderIndex<imageList.length" ng-click="sliderIndex=sliderIndex+1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"></button>
                 </div>
                 <div class="gallery" >
-                    <img ng-click="bigPicture = sliderImage" style="height: auto" width="100%" ng-src="{{sliderImage || imageList[0].url}}" alt="{{sliderAlt || imageList[0].alt}}"/>
+                    <img ng-click="bigPicture = sliderImage" style="height: 100%" width="100%" ng-src="{{sliderImage || imageList[0].url}}" alt="{{sliderAlt || imageList[0].alt}}"/>
                 </div>
                 <div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 nopad" ng-repeat="img in imageList track by $index">
                     <img style="max-height: 50px" ng-show="!$parent.gallery[$index]" ng-src="{{img.url}}" alt="{{img.alt}}" class="col-xs-2 smallpad" ng-click="$parent.sliderImage=img.url; $parent.sliderAlt=img.alt; $parent.sliderIndex=$index"/>
