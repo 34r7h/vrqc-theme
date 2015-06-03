@@ -77,8 +77,8 @@
       <file leaf-file-name="page-suites.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-suites.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.234676">
-              <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.39929947">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -242,12 +242,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00050" summary="ending selina, starting nimet">
-      <created>1433274259455</created>
-      <option name="number" value="00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1433274259461</updated>
     </task>
     <task id="LOCAL-00051" summary="ending selina, starting nimet">
       <created>1433274323428</created>
@@ -537,7 +531,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433304563379</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="ending selina, starting nimet">
+      <created>1433304834964</created>
+      <option name="number" value="00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1433304834965</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -997,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-suites.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.234676">
-          <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.39929947">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />

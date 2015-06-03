@@ -17,6 +17,8 @@
                                  ng-if="property.custom_fields.term[0] === 'short'">
                                 <div class="col-xs-4 col-sm-2">
                                     <img ng-src="{{property.thumbnail}}">
+                                    <h5 class="fa fa-cube col-sm-4 visible-xs light-text"> {{property.custom_fields.roomcount[0]}} BR
+                                    </h5>
                                 </div>
                                 <div class="hidden-xs col-sm-7">
                                     <a class="red-text" ng-href="{{property.url}}">
