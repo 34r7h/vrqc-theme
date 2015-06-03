@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-property.php" afterPath="$PROJECT_DIR$/single-property.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -257,12 +255,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00069" summary="ending selina, starting nimet">
-      <created>1433277956655</created>
-      <option name="number" value="00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1433277956655</updated>
     </task>
     <task id="LOCAL-00070" summary="ending selina, starting nimet">
       <created>1433278051269</created>
@@ -552,7 +544,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433357735570</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="recolor well">
+      <created>1433358295785</created>
+      <option name="number" value="00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1433358295785</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -605,7 +603,8 @@
     <MESSAGE value="frontpage property titles - captions" />
     <MESSAGE value="suites page quick info fix" />
     <MESSAGE value="image carousel fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="image carousel fix" />
+    <MESSAGE value="recolor well" />
+    <option name="LAST_COMMIT_MESSAGE" value="recolor well" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
