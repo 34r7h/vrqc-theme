@@ -102,18 +102,7 @@
 <br class="">
 <div>
     <div class="">
-
         <section class="noborderrad panel panel-default blurry-bg">
-
-            <!--<div
-                    href
-                    class="panel-heading">
-
-                <h2><a
-                        href="<?php $propertyLink=get_site_url().'/properties'; echo $propertyLink ?>">
-                    Our Vacation Suites
-                </a></h2>
-            </div>-->
             <div class="container-fluid">
                 <h3 class="col-xs-12 dark-text">
                     Short Term Rentals <em class="small">( Less than 30 days )</em>
