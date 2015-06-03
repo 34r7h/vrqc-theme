@@ -21,7 +21,7 @@
             <img class="hidden-xs navbar-text" src="/wp-content/uploads/2015/05/logo-for-website-transparent.png" alt=""/>
             <img class="visible-xs navbar-btn" src="/wp-content/uploads/2015/05/logo-for-website-transparent.png" alt=""/>
         </a>
-        <div class="col-xs-12 col-sm-7 pull-right" ng-init="nav.pages = [['','home'],['Suites','bed'],['About','info'],['Explore QC','street-view'],['Contact','phone']]">
+        <div class="col-xs-12 col-sm-8" ng-init="nav.pages = [['','home'],['Suites','bed'],['About','info'],['Explore QC','street-view'],['Contact','phone']]">
             <div class="navbar-text col-xs-12">
                 <div class="col-xs-5 col-sm-5">
                     <h3 class="nomar light-text">Booking</h3>
@@ -36,7 +36,11 @@
                 </div>
                 <div class="col-xs-2 col-sm-2 nomar nopad"><span class="prisna pull-right"></span></div>
             </div>
-            <span class="col-xs-12 col-sm-9 nopad nomar noborderrad navbar-btn btn-group btn-group-justified"><a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="fa fa-{{page[1]}} menunav btn btn-success shadow"> <b>{{page[0]}}</b></a></span>
+            <div class="col-xs-12 col-sm-11 pull-right"><span class="nopad nomar noborderrad navbar-btn btn-group btn-group-justified">
+                <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="fa fa-{{page[1]}} menunav btn btn-success shadow">
+                    <b>{{page[0]}}</b>
+                </a>
+            </span></div>
         </div>
 
 
