@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="hidden-xs homepage-splash ">
-        <div class="featured-offer pull-right col-xs-12 col-sm-5" style="position: relative; top:1em; right:0; height:0">
+        <div class="featured-offer pull-right col-xs-12 col-sm-6" style="position: relative; top:1em; right:0; height:0">
             <?php
                 $cat_id = 5; //the certain category ID
                 $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
