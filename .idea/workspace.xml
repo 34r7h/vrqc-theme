@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-property.php" afterPath="$PROJECT_DIR$/single-property.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -37,14 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.185184">
-              <caret line="34" column="107" selection-start-line="34" selection-start-column="107" selection-end-line="34" selection-end-column="107" />
+            <state vertical-scroll-proportion="0.54632586">
+              <caret line="21" column="122" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
               <folding>
-                <element signature="e#2608#3325#0" expanded="false" />
-                <element signature="e#3338#5405#0" expanded="false" />
+                <element signature="e#2629#3346#0" expanded="false" />
+                <element signature="e#3359#5426#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-property.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single-property.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single-property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6070288">
+            <state vertical-scroll-proportion="-12.666667">
               <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding />
             </state>
@@ -142,11 +142,11 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/page-suites.php" />
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/single-property.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -250,12 +250,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00056" summary="ending selina, starting nimet">
-      <created>1433274623475</created>
-      <option name="number" value="00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1433274623476</updated>
     </task>
     <task id="LOCAL-00057" summary="ending selina, starting nimet">
       <created>1433274639748</created>
@@ -545,7 +539,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433353582558</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="ending selina, starting nimet">
+      <created>1433353795740</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1433353795740</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -607,8 +607,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="22" selection-start-line="67" selection-start-column="16" selection-end-line="75" selection-end-column="22" />
           <folding>
-            <element signature="e#2608#3325#0" expanded="false" />
-            <element signature="e#3338#5405#0" expanded="false" />
+            <element signature="e#2629#3346#0" expanded="false" />
+            <element signature="e#3359#5426#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -945,17 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.185184">
-          <caret line="34" column="107" selection-start-line="34" selection-start-column="107" selection-end-line="34" selection-end-column="107" />
-          <folding>
-            <element signature="e#2608#3325#0" expanded="false" />
-            <element signature="e#3338#5405#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.8103447">
@@ -1006,9 +995,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single-property.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6070288">
+        <state vertical-scroll-proportion="-12.666667">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54632586">
+          <caret line="21" column="122" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
+          <folding>
+            <element signature="e#2629#3346#0" expanded="false" />
+            <element signature="e#3359#5426#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
