@@ -139,7 +139,7 @@
                         <div class="panel-body">
                             <div class="col-xs-6" ng-repeat="property in roomCount"
                                  ng-if="property.custom_fields.term[0] === 'long'">
-                                <a class="red-text" ng-href="{{property.url}}">
+                                <a class="light-text" ng-href="{{property.url}}">
                                     <b class="img-title">{{property.title}}</b>
                                     <img ng-src="{{property.thumbnail}}">
                                 </a>

@@ -38,11 +38,18 @@
             </div>
             <div class="col-xs-12 col-sm-11 pull-right">
                 <span class="nopad nomar noborderrad navbar-btn btn-group btn-group-justified">
-                    <a ng-repeat="(key,page) in nav.pages" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" type="button" class="menunav btn btn-success shadow">
-                        <i class="fa fa-{{page[1]}}"> <b class="">{{page[0]}}</b></i>
-
-                    </a>
+                    <div ng-repeat="(key,page) in nav.pages" type="button" class="menunav btn btn-success shadow">
+                        <a ng-mouseenter="$parent.suitesDropdown[page[0]] = !$parent.suitesDropdown[page[0]]" ng-c="$parent.suitesDropdown[page[0]] = !$parent.suitesDropdown[page[0]]" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" class="fa fa-{{page[1]}} col-xs-12 nopad nomar">
+                            <b class="">{{page[0]}}</b>
+                        </a>
+                    </div>
                 </span>
+                <div ng-mouseleave="suitesDropdown['Suites']=false;" ng-if="suitesDropdown['Suites']" class="btn-group btn-group-vertical nopad" style="position: relative; width: 100%; top: 0; height:0; z-index: 99999; right: 0;">
+                    <a ng-href="{{property.url}}" class="btn btn-default" ng-repeat="property in vrqc.propertyPosts.posts">
+                        {{property.title}}
+                    </a>
+                </div>
+
             </div>
         </div>
     </nav>
