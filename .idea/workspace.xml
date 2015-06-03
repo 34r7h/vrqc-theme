@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-property.php" afterPath="$PROJECT_DIR$/single-property.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -101,8 +100,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54632586">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.51597446">
+              <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -262,12 +261,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00076" summary="ending selina, starting nimet">
-      <created>1433278807640</created>
-      <option name="number" value="00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1433278807640</updated>
     </task>
     <task id="LOCAL-00077" summary="ending selina, starting nimet">
       <created>1433278883523</created>
@@ -557,7 +550,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433360474092</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="payment form and footer tight">
+      <created>1433362936419</created>
+      <option name="number" value="00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1433362936420</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -614,7 +613,8 @@
     <MESSAGE value="smallr logo" />
     <MESSAGE value="hr take outs&#10;&#10;" />
     <MESSAGE value="single prop tight top" />
-    <option name="LAST_COMMIT_MESSAGE" value="single prop tight top" />
+    <MESSAGE value="payment form and footer tight" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment form and footer tight" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1024,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54632586">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.51597446">
+          <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
           <folding />
         </state>
       </provider>

@@ -13,7 +13,7 @@
                 <i class="fa fa-facebook-official"> <span class="hidden-xs">Facebook</span></i>
             </a></span>
             <span class="navbar-right">
-                <span class="navbar-text" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="hidden-xs hidden-sm">Vacation Rentals Quebec City</span> &nbsp; </span>
+                <span class="navbar-text" ng-if="getDate"> &copy; <span>{{getDate | date: 'yyyy'}}</span> <span class="">Vacation Rentals Quebec City</span> &nbsp; </span>
 
             </span>
 
