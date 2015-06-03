@@ -14,15 +14,16 @@
     <article class="col-xs-12 col-sm-8 property nopad nomar">
 
         <div class="panel panel-default noborderrad">
-            <h1 class="panel-heading">
-                <i class="fa fa-home">
+            <div class="panel-heading">
+                <h1 class="fa-home">
+                    <i class="fa fa-bed"> </i>
                     <?php
                     $property_id = url_to_postid($url);
                     $property = get_post($property_id);
                     echo $property->post_title;
                     ?>
-                </i>
-            </h1>
+                </h1>
+            </div>
             <div ng-init="sliderImage=imageList[0].url; sliderAlt = imageList[0].alt; sliderIndex = 0" class="property-featured">
                 <!-- <?php echo get_the_post_thumbnail(); ?> -->
                 <div class="pull-right" style="position:relative; top:40px; right:8px;">
