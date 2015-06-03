@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -64,40 +64,50 @@
       <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.74074">
-              <caret line="78" column="104" selection-start-line="78" selection-start-column="104" selection-end-line="78" selection-end-column="104" />
+            <state vertical-scroll-proportion="-0.5185185">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#span#0;n#div#2;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-suites.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page-suites.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.93929714">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24600638">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state vertical-scroll-proportion="4.148148">
+              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
               <folding>
                 <element signature="e#775#1606#2" expanded="true" />
                 <element signature="e#2565#2594#0" expanded="false" />
                 <element signature="e#4586#4641#0" expanded="false" />
-                <element signature="e#6670#6728#0" expanded="false" />
-                <element signature="e#6883#6958#0" expanded="false" />
-                <element signature="e#6975#7056#0" expanded="false" />
-                <element signature="e#7086#7126#0" expanded="false" />
-                <element signature="e#8140#8177#0" expanded="false" />
-                <element signature="e#8209#8248#0" expanded="false" />
-                <element signature="e#8269#8310#0" expanded="false" />
-                <element signature="e#8327#8362#0" expanded="false" />
-                <element signature="e#8373#8430#0" expanded="false" />
-                <element signature="e#8485#8521#0" expanded="false" />
-                <element signature="e#8532#8573#0" expanded="false" />
-                <element signature="e#8697#8808#0" expanded="false" />
-                <element signature="e#9181#9216#0" expanded="false" />
-                <element signature="e#9248#9284#0" expanded="false" />
-                <element signature="e#10217#10254#0" expanded="false" />
+                <element signature="e#6667#6725#0" expanded="false" />
+                <element signature="e#6880#6955#0" expanded="false" />
+                <element signature="e#6972#7053#0" expanded="false" />
+                <element signature="e#7083#7123#0" expanded="false" />
+                <element signature="e#8137#8174#0" expanded="false" />
+                <element signature="e#8206#8245#0" expanded="false" />
+                <element signature="e#8266#8307#0" expanded="false" />
+                <element signature="e#8324#8359#0" expanded="false" />
+                <element signature="e#8370#8427#0" expanded="false" />
+                <element signature="e#8482#8518#0" expanded="false" />
+                <element signature="e#8529#8570#0" expanded="false" />
+                <element signature="e#8694#8805#0" expanded="false" />
+                <element signature="e#9178#9213#0" expanded="false" />
+                <element signature="e#9245#9281#0" expanded="false" />
+                <element signature="e#10214#10251#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -123,9 +133,9 @@
         <option value="$PROJECT_DIR$/page-suites.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/front-page.php" />
       </list>
     </option>
   </component>
@@ -229,12 +239,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00046" summary="ending selina, starting nimet">
-      <created>1433273725606</created>
-      <option name="number" value="00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1433273725606</updated>
     </task>
     <task id="LOCAL-00047" summary="ending selina, starting nimet">
       <created>1433273954939</created>
@@ -524,7 +528,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433290826510</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="ending selina, starting nimet">
+      <created>1433292186908</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1433292186908</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +608,7 @@
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#span#0;n#div#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -882,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-suites.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49095607">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14728682">
@@ -938,17 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.74074">
-          <caret line="78" column="104" selection-start-line="78" selection-start-column="104" selection-end-line="78" selection-end-column="104" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#span#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.962963">
@@ -962,28 +954,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24600638">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state vertical-scroll-proportion="4.148148">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
           <folding>
             <element signature="e#775#1606#2" expanded="true" />
             <element signature="e#2565#2594#0" expanded="false" />
             <element signature="e#4586#4641#0" expanded="false" />
-            <element signature="e#6670#6728#0" expanded="false" />
-            <element signature="e#6883#6958#0" expanded="false" />
-            <element signature="e#6975#7056#0" expanded="false" />
-            <element signature="e#7086#7126#0" expanded="false" />
-            <element signature="e#8140#8177#0" expanded="false" />
-            <element signature="e#8209#8248#0" expanded="false" />
-            <element signature="e#8269#8310#0" expanded="false" />
-            <element signature="e#8327#8362#0" expanded="false" />
-            <element signature="e#8373#8430#0" expanded="false" />
-            <element signature="e#8485#8521#0" expanded="false" />
-            <element signature="e#8532#8573#0" expanded="false" />
-            <element signature="e#8697#8808#0" expanded="false" />
-            <element signature="e#9181#9216#0" expanded="false" />
-            <element signature="e#9248#9284#0" expanded="false" />
-            <element signature="e#10217#10254#0" expanded="false" />
+            <element signature="e#6667#6725#0" expanded="false" />
+            <element signature="e#6880#6955#0" expanded="false" />
+            <element signature="e#6972#7053#0" expanded="false" />
+            <element signature="e#7083#7123#0" expanded="false" />
+            <element signature="e#8137#8174#0" expanded="false" />
+            <element signature="e#8206#8245#0" expanded="false" />
+            <element signature="e#8266#8307#0" expanded="false" />
+            <element signature="e#8324#8359#0" expanded="false" />
+            <element signature="e#8370#8427#0" expanded="false" />
+            <element signature="e#8482#8518#0" expanded="false" />
+            <element signature="e#8529#8570#0" expanded="false" />
+            <element signature="e#8694#8805#0" expanded="false" />
+            <element signature="e#9178#9213#0" expanded="false" />
+            <element signature="e#9245#9281#0" expanded="false" />
+            <element signature="e#10214#10251#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5185185">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-suites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93929714">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

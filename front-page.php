@@ -77,10 +77,12 @@
     </div>
     <span ng-if="vrqc.weather.temperature_string" class="weather col-xs-12 col-sm-3">
         <div class="panel panel-dark"><div class="panel-heading"><h3 class="light-text fa fa-umbrella"> Current Weather</h3></div>
-        <div class="panel-body"><img style="height: 50px; width: auto" ng-src="{{vrqc.weather.icon_url}}"
+        <div class="panel-body">
+            <div>
+                <h4><img style="height: 25px; width: auto" ng-src="{{vrqc.weather.icon_url}}"
                                      alt="quebec city weather from vacationrentalsquebeccity.com"/>
 
-            <div>{{vrqc.weather.weather}}&nbsp;</div>
+                {{vrqc.weather.weather}}</h4>&nbsp;</div>
             <div>{{vrqc.weather.temperature_string}}&nbsp; </div>
         </div></div>
     </span>
