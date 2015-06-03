@@ -24,15 +24,15 @@
         <div class="col-xs-12 col-sm-8" ng-init="nav.pages = [['','home'],['Suites','bed'],['About','info'],['Explore QC','street-view'],['Contact','phone']]">
             <div class="navbar-text col-xs-12">
                 <div class="col-xs-5 col-sm-5">
-                    <b class="">Booking</b>
+                    <h3 class="nomar light-text">Booking</h3>
                     <div class="col-xs-12">
-                        <div>Fr: 1 581 777 3337 </div>
-                        <div>En: 1 450 679 0674 </div>
+                        <div>Fr: <a href="tel:15817773337" class="light-text"><b>1 581 777 3337</b></a> </div>
+                        <div>En: <a href="tel:14506790674" class="light-text"><b>1 450 679 0674</b></a></div>
                     </div>
                 </div>
                 <div class="col-xs-5 col-sm-5 nomar nopad">
-                    <b class="">Concierge</b>
-                    <div class="col-xs-12"> 1 581 777 3339 </div>
+                    <h3 class="nomar light-text">Concierge</h3>
+                    <div class="col-xs-12"> <a href="tel:15817773339" class=" light-text"><b>1 581 777 3339</b></a></div>
                 </div>
                 <div class="col-xs-2 col-sm-2 nomar nopad"><span class="prisna pull-right"></span></div>
             </div>
