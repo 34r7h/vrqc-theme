@@ -20,23 +20,19 @@
                 <!-- <?php echo get_the_post_thumbnail(); ?> -->
                 <div class="pull-right" style="position:relative; height:0; top:40px; right:8px;">
                     <div class="btn-group btn-group-lg">
-                    <button class="btn btn-default fa fa-2x fa-arrow-circle-o-left" ng-show="sliderIndex>0" ng-click="sliderIndex=sliderIndex-1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"></button>
-                    <button class="btn btn-default fa fa-2x fa-arrow-circle-o-right" ng-show="sliderIndex<imageList.length" ng-click="sliderIndex=sliderIndex+1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"></button></div>
+                    <a class="btn btn-default fa fa-2x fa-arrow-circle-o-left" ng-show="sliderIndex>0" ng-click="sliderIndex=sliderIndex-1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"></a>
+                    <a class="btn btn-default fa fa-2x fa-arrow-circle-o-right" ng-show="sliderIndex<imageList.length" ng-click="sliderIndex=sliderIndex+1; sliderImage=imageList[sliderIndex].url; sliderAlt = imageList[sliderIndex].alt; sliderIndex = sliderIndex"></a></div>
                 </div>
                 <div class="gallery" >
                     <img style="vertical-align: top; height: 100%" width="100%" ng-src="{{sliderImage || imageList[0].url}}" alt="{{sliderAlt || imageList[0].alt}}"/>
                 </div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 nopad" ng-repeat="img in imageList track by $index">
+                <div class="col-xs-12"><div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 nopad" ng-repeat="img in imageList track by $index">
                     <img style="max-height: 50px" ng-show="!$parent.gallery[$index]" ng-src="{{img.url}}" alt="{{img.alt}}" class="col-xs-2 smallpad" ng-click="$parent.sliderImage=img.url; $parent.sliderAlt=img.alt; $parent.sliderIndex=$index"/>
-                    <hr ng-if="($index+1) % 4 === 0" class="col-xs-12"/>
-                </div>
-                <hr/>
+                </div></div>
             </div>
-            <br/>
             <div ng-init="show.propertySection='Overview'" class="col-xs-12 btn-group btn-group-justified">
                 <a ng-repeat="(key, section) in nav.property" ng-click='$parent.show.propertySection={}; $parent.show.propertySection=section' type="button" class="menunav btn btn-success shadow">{{section}}</a>
             </div>
-            <hr/>
 
 
             <div class="panel-body">
