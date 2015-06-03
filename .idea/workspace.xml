@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-suites.php" afterPath="$PROJECT_DIR$/page-suites.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -63,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52100843">
+            <state vertical-scroll-proportion="3.1724138">
               <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
@@ -76,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-suites.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-suites.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-suites.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.759259">
-              <caret line="46" column="98" selection-start-line="46" selection-start-column="98" selection-end-line="46" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.4924875">
+              <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
               <folding>
                 <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -145,11 +144,11 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/page-suites.php" />
         <option value="$PROJECT_DIR$/single-property.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/page-suites.php" />
       </list>
     </option>
   </component>
@@ -253,12 +252,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00063" summary="ending selina, starting nimet">
-      <created>1433276340206</created>
-      <option name="number" value="00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1433276340206</updated>
     </task>
     <task id="LOCAL-00064" summary="ending selina, starting nimet">
       <created>1433276530314</created>
@@ -548,7 +541,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433355788482</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="frontpage property titles - captions">
+      <created>1433356129004</created>
+      <option name="number" value="00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1433356129004</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +597,8 @@
     <MESSAGE value="&#10;booking button" />
     <MESSAGE value="carousel bug" />
     <MESSAGE value="ending selina, starting nimet" />
-    <option name="LAST_COMMIT_MESSAGE" value="ending selina, starting nimet" />
+    <MESSAGE value="frontpage property titles - captions" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontpage property titles - captions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -950,17 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-suites.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.759259">
-          <caret line="46" column="98" selection-start-line="46" selection-start-column="98" selection-end-line="46" selection-end-column="98" />
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single-property.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.666667">
@@ -1010,11 +999,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52100843">
+        <state vertical-scroll-proportion="3.1724138">
           <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-suites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4924875">
+          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
