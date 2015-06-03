@@ -86,6 +86,12 @@ a {
 }
 
 img {border-radius:5px; width:100%; height:auto;}
+.img-title {
+    position: absolute;
+    top: 1%;
+    background-color: rgba(13,5,3,.62);
+    padding: .125% 1%;
+}
 button, .btn {box-shadow:4px 4px 5px rgba(6, 24, 80, .1);}
 button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
 .btn-default {background-color: rgba(174, 20, 35,.95); color:rgba(242,247,250,.98); font-weight: bold; border-color: rgba(242,247,250,.38); }
