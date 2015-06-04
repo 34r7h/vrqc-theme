@@ -10,12 +10,12 @@ get_footer();
 
 get_header();
 ?></div>
-<div class="clearfix container-fluid"><article class="col-xs-12 col-sm-6 col-sm-offset-1 " id="content" role="main">
+<div class="clearfix container-fluid"><article class="col-xs-12 " id="content" role="main">
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
     <div class="panel panel-default">
-        <h2 class="panel-heading"><i class="fa fa-thumb-tack"> <?php the_title(); ?></i></h2>
+        <div class="panel-heading"><h2><i class="fa fa-thumb-tack"> <?php the_title(); ?></i></h2></div>
         <div class="panel-body"><?php echo get_the_post_thumbnail() ?></div>
 
         <div class="panel-footer">
