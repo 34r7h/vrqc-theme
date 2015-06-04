@@ -19,13 +19,14 @@
 
         if (have_posts()) : while (have_posts()) : the_post(); ?>
         <article class="col-xs-12 col-md-4 post clearfix">
-                <a href="<?php the_permalink();?>" class="panel panel-dark">
-                    <div class="panel-heading dark-bg"><h4 class="fa fa-thumb-tack light-text"> <?php the_title(); ?></h4></div>
-                    <div class="panel-body">
-                        <?php echo get_the_post_thumbnail() ?>
-                    </div>
-                </a>
-            </div>
+            <a href="<?php the_permalink();?>" class="panel panel-dark">
+                <div class="panel-heading dark-bg">
+                    <h4 class="fa fa-thumb-tack light-text"> <?php the_title(); ?></h4>
+                </div>
+                <div class="panel-body">
+                    <?php echo get_the_post_thumbnail() ?>
+                </div>
+            </a>
         </article>
 
         <?php endwhile; endif; // done our wordpress loop. Will start again for each category ?>
