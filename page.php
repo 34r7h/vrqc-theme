@@ -6,8 +6,8 @@
 
     <article class="col-xs-12" id="content" role="main">
         <div class="panel panel-dark">
-            <div class="panel-heading light-text">
-                <h2><?php
+            <div class="panel-heading">
+                <h2 class="light-text"><?php
                 $post_id = url_to_postid($url);
                 $page = get_post($post_id);
                 echo $page->post_title;
