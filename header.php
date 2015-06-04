@@ -45,7 +45,7 @@
                     </div>
                 </span>
                 <div ng-mouseleave="suitesDropdown['Suites']=false;" ng-if="suitesDropdown['Suites']" class="btn-group btn-group-vertical nopad" style="position: absolute; width: 75%; top: 1.6em; z-index: 99999; left:21%">
-                    <a ng-href="{{property.url}}" class="text-left btn btn-default " ng-repeat="property in vrqc.propertyPosts.posts" style="height:37px">
+                    <a ng-href="{{property.url}}" class="text-left btn btn-default " ng-repeat="property in vrqc.propertyPosts.posts | orderBy:property.custom_fields.roomcount[0]" style="height:37px">
                         <div class="col-xs-8 text-left">{{property.title}}</div>
                         <div class="text-left pull-left">{{property.custom_fields.roomcount[0]}} br</div>
 
