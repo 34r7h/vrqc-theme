@@ -44,9 +44,9 @@
                         </a>
                     </div>
                 </span>
-                <div ng-mouseleave="suitesDropdown['Suites']=false;" ng-if="suitesDropdown['Suites']" class="btn-group btn-group-vertical nopad" style="position: absolute; width: 100%; top: 1em; z-index: 99999; right: 0;">
+                <div ng-mouseleave="suitesDropdown['Suites']=false;" ng-if="suitesDropdown['Suites']" class="btn-group btn-group-vertical nopad" style="position: absolute; width: 100%; top: 1em; z-index: 99999; right: 1em; left:1em">
                     <a ng-href="{{property.url}}" class="text-left btn btn-default " ng-repeat="property in vrqc.propertyPosts.posts" style="height:35px">
-                        <img class="col-xs-1 pull-left" ng-src="{{property.thumbnail}}">
+                        <img class="col-xs-1 text-left" ng-src="{{property.thumbnail}}">
                         <div class="col-xs-6 pull-left">{{property.title}}</div>
                         <div class="pull-left">{{property.custom_fields.roomcount[0]}} br</div>
 
