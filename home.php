@@ -14,16 +14,16 @@
         foreach ($cats as $cat) {
         $cat_id= $cat->term_id;
         $cat_slug = $cat->slug;
-        echo "<a ng-href='{{siteUrl}}/category/" . $cat->slug . "'><h2 class='clearfix panel-heading col-xs-12'>".$cat->name."</h2></a><div class='clearfix'>";
+        echo "<a ng-href='{{siteUrl}}/category/" . $cat->slug . "'><h2 class='clearfix col-xs-12'>".$cat->name."</h2></a><div class='clearfix'>";
         query_posts("cat=$cat_id&posts_per_page=3");
 
         if (have_posts()) : while (have_posts()) : the_post(); ?>
         <article class="col-xs-12 col-md-4 post clearfix">
-            <div class="panel panel-default">
+            <div class="panel panel-dark">
                 <a href="<?php the_permalink();?>">
-                    <h4 class="panel-heading">
-                        <i class="fa fa-thumb-tack"> <?php the_title(); ?></i>
-                    </h4>
+                    <div class="panel-heading">
+                        <h4 class="fa fa-thumb-tack"> <?php the_title(); ?></h4>
+                    </div>
                     <div class="panel-body">
                         <?php echo get_the_post_thumbnail() ?>
                     </div>
