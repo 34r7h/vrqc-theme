@@ -5,7 +5,7 @@
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
     <article class="col-xs-12" id="content" role="main">
-        <div class="panel panel-default">
+        <div class="panel panel-dark">
             <div class="panel-heading">
                 <h2><?php
                 $post_id = url_to_postid($url);
