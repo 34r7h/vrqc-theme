@@ -39,7 +39,7 @@
             <div class="col-xs-12 col-sm-11 pull-right">
                 <span class="nopad nomar noborderrad navbar-btn btn-group btn-group-justified">
                     <div ng-repeat="(key,page) in nav.pages" type="button" class="menunav btn btn-success shadow">
-                        <a ng-mouseenter="$parent.suitesDropdown[page[0]] = !$parent.suitesDropdown[page[0]]" ng-c="$parent.suitesDropdown[page[0]] = !$parent.suitesDropdown[page[0]]" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" class="fa fa-{{page[1]}} col-xs-12 nopad nomar">
+                        <a ng-mouseenter="$parent.suitesDropdown[page[0]] = !$parent.suitesDropdown[page[0]]" ng-click="$parent.suitesDropdown[page[0]] = !$parent.suitesDropdown[page[0]]" ng-href="<?php echo get_site_url(); ?>/{{page[0]}}" class="fa fa-{{page[1]}} col-xs-12 nopad nomar">
                             <b class="">{{page[0]}}</b>
                         </a>
                     </div>

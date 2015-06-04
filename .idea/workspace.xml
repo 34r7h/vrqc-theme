@@ -40,8 +40,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6357827">
-              <caret line="47" column="180" selection-start-line="47" selection-start-column="180" selection-end-line="47" selection-end-column="180" />
+            <state vertical-scroll-proportion="0.54472846">
+              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
@@ -275,12 +275,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00097" summary="ending selina, starting nimet">
-      <created>1433304327866</created>
-      <option name="number" value="00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1433304327866</updated>
     </task>
     <task id="LOCAL-00098" summary="ending selina, starting nimet">
       <created>1433304563379</created>
@@ -570,7 +564,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433378174954</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="payment form and footer tight">
+      <created>1433378226655</created>
+      <option name="number" value="00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1433378226656</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1038,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6357827">
-          <caret line="47" column="180" selection-start-line="47" selection-start-column="180" selection-end-line="47" selection-end-column="180" />
+        <state vertical-scroll-proportion="0.54472846">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
