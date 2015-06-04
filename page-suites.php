@@ -73,11 +73,11 @@
                                     <a class="red-text" ng-href="{{property.url}}">
                                         <h2>{{property.title}}</h2>
                                     </a>
-                                    <i class="fa fa-lg fa-cube col-sm-4"> Bedrooms: <b>{{property.custom_fields.roomcount[0]}}</b>
+                                    <i class="fa fa-lg fa-cube col-sm-4"> <b>{{property.custom_fields.roomcount[0]}}</b> Bedrooms
                                     </i>
-                                    <i class="fa  fa-lg fa-toggle-down col-sm-4"> Bathrooms: <b>{{property.custom_fields.bathrooms[0]}}</b>
+                                    <i class="fa  fa-lg fa-toggle-down col-sm-4"> <b>{{property.custom_fields.bathrooms[0]}}</b> Bathrooms
                                     </i>
-                                    <i class="fa fa-lg fa-bed col-sm-4"> Sleeps: <b>{{property.custom_fields.sleeps[0]}}</b>
+                                    <i class="fa fa-lg fa-bed col-sm-4"> Sleeps <b>{{property.custom_fields.sleeps[0]}}</b>
                                     </i>
 
                                 </div>
