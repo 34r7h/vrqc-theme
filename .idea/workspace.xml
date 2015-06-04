@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.41504854">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -282,12 +282,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00113" summary="suites page quick info fix">
-      <created>1433356281918</created>
-      <option name="number" value="00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1433356281918</updated>
     </task>
     <task id="LOCAL-00114" summary="suites page quick info fix">
       <created>1433357147789</created>
@@ -577,7 +571,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433379805622</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="payment form and footer tight">
+      <created>1433379843063</created>
+      <option name="number" value="00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1433379843063</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1071,7 +1071,7 @@
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41504854">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>

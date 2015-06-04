@@ -6,7 +6,7 @@
 
     <article class="col-xs-12" id="content" role="main">
         <div class="panel panel-dark">
-            <div class="panel-heading">
+            <div class="panel-heading light-text">
                 <h2><?php
                 $post_id = url_to_postid($url);
                 $page = get_post($post_id);
