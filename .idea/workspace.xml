@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.514377">
-              <caret line="46" column="232" selection-start-line="46" selection-start-column="232" selection-end-line="46" selection-end-column="232" />
+              <caret line="46" column="218" selection-start-line="46" selection-start-column="218" selection-end-line="46" selection-end-column="218" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
@@ -275,12 +275,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00089" summary="ending selina, starting nimet">
-      <created>1433282728710</created>
-      <option name="number" value="00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1433282728710</updated>
     </task>
     <task id="LOCAL-00090" summary="ending selina, starting nimet">
       <created>1433282866828</created>
@@ -570,7 +564,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433377087608</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="payment form and footer tight">
+      <created>1433377143167</created>
+      <option name="number" value="00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1433377143167</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1039,7 +1039,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.514377">
-          <caret line="46" column="232" selection-start-line="46" selection-start-column="232" selection-end-line="46" selection-end-column="232" />
+          <caret line="46" column="218" selection-start-line="46" selection-start-column="218" selection-end-line="46" selection-end-column="218" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
