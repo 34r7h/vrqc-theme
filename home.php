@@ -21,7 +21,7 @@
         <article class="col-xs-12 col-md-4 post clearfix">
             <div class="panel panel-dark">
                 <a href="<?php the_permalink();?>">
-                    <div class="panel-heading">
+                    <div class="panel-heading dark-bg">
                         <h4 class="fa fa-thumb-tack"> <?php the_title(); ?></h4>
                     </div>
                     <div class="panel-body">
