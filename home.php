@@ -22,7 +22,7 @@
             <div class="panel panel-dark">
                 <a href="<?php the_permalink();?>">
                     <div class="panel-heading dark-bg">
-                        <h4 class="fa fa-thumb-tack"> <?php the_title(); ?></h4>
+                        <h4 class="fa fa-thumb-tack light-text"> <?php the_title(); ?></h4>
                     </div>
                     <div class="panel-body">
                         <?php echo get_the_post_thumbnail() ?>
