@@ -20,10 +20,8 @@
         if (have_posts()) : while (have_posts()) : the_post(); ?>
         <article class="col-xs-12 col-md-4 post clearfix">
             <div class="panel panel-dark">
-                <a href="<?php the_permalink();?>">
-                    <div class="panel-heading dark-bg">
-                        <h4 class="fa fa-thumb-tack light-text"> <?php the_title(); ?></h4>
-                    </div>
+                <a href="<?php the_permalink();?>" class="panel-heading dark-bg">
+                    <h4 class="fa fa-thumb-tack light-text"> <?php the_title(); ?></h4>
                     <div class="panel-body">
                         <?php echo get_the_post_thumbnail() ?>
                     </div>
