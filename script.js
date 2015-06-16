@@ -45,7 +45,8 @@ app.controller('vrqcPropCtrl', function($scope, data){
         $http.get($rootScope.siteUrl+'/?json=get_posts&cat=7')
             .success(function (data, status, headers, config) {
                 vrqc.propertyPosts = data;
-                if(vrqc.propertyPosts.posts){
+              console.log('where is my data', data);
+              if(vrqc.propertyPosts.posts){
                     angular.forEach(vrqc.propertyPosts.posts, function (post) {
                         console.log('property posts',post);
                         index.propertyPostsBySlug[post.slug]=post.id;
