@@ -119,7 +119,7 @@
                             class="col-xs-12 col-sm-6">
                         <div class="panel panel-dark">
                             <div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{propertyListKey | uppercase}}
-                                BEDROOMS</b>
+                                BEDROOMS <span ng-if="propertyListKey===1">/ STUDIO</span> </b>
                             </div>
                             <div class="panel-body">
                                 <div class="col-xs-6" ng-repeat="(propertyKey, property) in propertyIds">
