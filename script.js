@@ -45,7 +45,6 @@ app.controller('vrqcPropCtrl', function($scope, data){
         $http.get($rootScope.siteUrl+'/?json=get_posts&cat=7')
             .success(function (data, status, headers, config) {
                 vrqc.propertyPosts = data;
-              console.log('where is my data', data);
                 angular.forEach(data.posts, function (post) {
                     index.propertyPostsBySlug[post.slug]=post.id;
                     index.propertyPostsById[post.id]=post.slug;
@@ -174,8 +173,6 @@ app.controller('vrqcPropCtrl', function($scope, data){
                 // Get Corresponding Property Data
                 if(data.post && data.post.categories[0].slug === 'properties'){
                     vrqc.propertyData = vrqc.propertiesObjectById[data.post.id];
-                    console.log('vrqc.propertyData',vrqc.propertyData);
-                    console.log('vrqc.propertiesObjectById',vrqc.propertiesObjectById);
                     vrqc.propertyDataId = vrqc.propertyData['id'];
                 }
               }, 3000);
