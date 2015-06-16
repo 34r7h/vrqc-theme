@@ -46,34 +46,33 @@ app.controller('vrqcPropCtrl', function($scope, data){
             .success(function (data, status, headers, config) {
                 vrqc.propertyPosts = data;
               console.log('where is my data', data);
-              if(vrqc.propertyPosts.posts){
-                    angular.forEach(vrqc.propertyPosts.posts, function (post) {
-                        console.log('property posts',post);
-                        index.propertyPostsBySlug[post.slug]=post.id;
-                        index.propertyPostsById[post.id]=post.slug;
-                        vrqc.propertiesObjectById[post.id]=post;
+                angular.forEach(data.posts, function (post) {
+                    console.log('property posts',post);
+                    index.propertyPostsBySlug[post.slug]=post.id;
+                    index.propertyPostsById[post.id]=post.slug;
+                    vrqc.propertiesObjectById[post.id]=post;
 
-                        if (post.custom_fields.term[0] === 'short' ){
-                            index.propertyPostsByTermAndRoomcount['short'][post.custom_fields.roomcount[0]].push(post.id);
-                            index.propertyPostsByTerm['short'].push(post.id);
-                        } else {
-                            index.propertyPostsByTermAndRoomcount['long'][post.custom_fields.roomcount[0]].push(post.id);
-                            index.propertyPostsByTerm['long'].push(post.id);
-                        }
+                    if (post.custom_fields.term[0] === 'short' ){
+                        index.propertyPostsByTermAndRoomcount['short'][post.custom_fields.roomcount[0]].push(post.id);
+                        index.propertyPostsByTerm['short'].push(post.id);
+                    } else {
+                        index.propertyPostsByTermAndRoomcount['long'][post.custom_fields.roomcount[0]].push(post.id);
+                        index.propertyPostsByTerm['long'].push(post.id);
+                    }
 
-                        if (post.custom_fields.roomcount[0] === '1'){
-                            index.propertyPostsByRoomcount['1'].push(post);
-                        } else if (post.custom_fields.roomcount[0] === '2'){
-                            index.propertyPostsByRoomcount['2'].push(post);
-                        } else if (post.custom_fields.roomcount[0] === '3'){
-                            index.propertyPostsByRoomcount['3'].push(post);
-                        } else if (post.custom_fields.roomcount[0] === '4'){
-                            index.propertyPostsByRoomcount['4'].push(post);
-                        } else {
-                            index.propertyPostsByRoomcount.many.push(post);
-                        }
-                    });
-                }
+                    if (post.custom_fields.roomcount[0] === '1'){
+                        index.propertyPostsByRoomcount['1'].push(post);
+                    } else if (post.custom_fields.roomcount[0] === '2'){
+                        index.propertyPostsByRoomcount['2'].push(post);
+                    } else if (post.custom_fields.roomcount[0] === '3'){
+                        index.propertyPostsByRoomcount['3'].push(post);
+                    } else if (post.custom_fields.roomcount[0] === '4'){
+                        index.propertyPostsByRoomcount['4'].push(post);
+                    } else {
+                        index.propertyPostsByRoomcount.many.push(post);
+                    }
+                });
+
             }).error(function (data, status, headers, config) {
         });
 
