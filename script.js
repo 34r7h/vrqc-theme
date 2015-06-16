@@ -52,14 +52,16 @@ app.controller('vrqcPropCtrl', function($scope, data){
                     index.propertyPostsById[post.id]=post.slug;
                     vrqc.propertiesObjectById[post.id]=post;
                     console.log('post.custom_fields.term[0]', post.custom_fields.term[0]);
+                    index.propertyPostsByTermAndRoomcount[post.custom_fields.term[0]][post.custom_fields.roomcount[0]].push(post.id);
 
-                    if (post.custom_fields.term && post.custom_fields.term[0] == 'long' ){
+                    /*if (post.custom_fields.term && post.custom_fields.term[0] == 'long' ){
                         index.propertyPostsByTermAndRoomcount['long'][post.custom_fields.roomcount[0]].push(post.id);
                         index.propertyPostsByTerm['long'].push(post.id);
-                    } else if(post.custom_fields.term && post.custom_fields.term[0] == 'short' ){
+                    } else {
                         index.propertyPostsByTermAndRoomcount['short'][post.custom_fields.roomcount[0]].push(post.id);
                         index.propertyPostsByTerm['short'].push(post.id);
-                    }
+                    }*/
+
 
                     if (post.custom_fields.roomcount[0] === '1'){
                         index.propertyPostsByRoomcount['1'].push(post);
