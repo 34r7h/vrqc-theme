@@ -169,7 +169,6 @@ app.controller('vrqcPropCtrl', function($scope, data){
         // Specific Post or Page
         $http.get($location.$$absUrl+'?json=1')
             .success(function (data, status, headers, config) {
-              console.log(data);
               $timeout(function(){
                   vrqc.postData = data;
                 // Get Corresponding Property Data
