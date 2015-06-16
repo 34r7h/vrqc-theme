@@ -54,9 +54,11 @@
                 <div ng-show="show.propertySection ==='Overview'" class="col-xs-12 well">
                     <h2>Overview</h2>
                     <hr/>
-                    <?php echo the_content(); ?>
+                    <?php the_content(); ?>
+                    <span ng-bind-html="vrqc.propertyData.content"></span>
                     <hr/>
-                    <h4>Property Type</h4>hr
+                    <h4>Property Type</h4>
+                    <hr/>
                     <?php $meta = get_post_meta( get_the_ID(), 'type' ); echo $meta[0] ?>
                     <hr/>
                     <h4>Meals</h4>

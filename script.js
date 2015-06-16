@@ -1,4 +1,4 @@
-app = angular.module('vrqc', []);
+app = angular.module('vrqc', ['ngSanitize']);
 
 app.controller('vrqcPropCtrl', function($scope, data){
     $scope.vrqc = data[0];
@@ -169,14 +169,17 @@ app.controller('vrqcPropCtrl', function($scope, data){
         // Specific Post or Page
         $http.get($location.$$absUrl+'?json=1')
             .success(function (data, status, headers, config) {
-                vrqc.postData = data;
+              console.log(data);
+              $timeout(function(){
+                  vrqc.postData = data;
                 // Get Corresponding Property Data
                 if(data.post && data.post.categories[0].slug === 'properties'){
-                    vrqc.propertyData = vrqc.propertiesObject[data.post.slug];
-                    $timeout(function(){
-                        vrqc.propertyDataId = vrqc.propertyData['id'];
-                    }, 0);
+                    vrqc.propertyData = vrqc.propertiesObjectById[data.post.id];
+                    console.log('vrqc.propertyData',vrqc.propertyData);
+                    console.log('vrqc.propertiesObjectById',vrqc.propertiesObjectById);
+                    vrqc.propertyDataId = vrqc.propertyData['id'];
                 }
+              }, 3000);
             }).error(function (data, status, headers, config) {
             });
         // Offer Posts
