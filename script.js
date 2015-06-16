@@ -47,10 +47,10 @@ app.controller('vrqcPropCtrl', function($scope, data){
                 vrqc.propertyPosts = data;
                 if(vrqc.propertyPosts.posts){
                     angular.forEach(vrqc.propertyPosts.posts, function (post) {
+                        console.log('property posts',post);
                         index.propertyPostsBySlug[post.slug]=post.id;
                         index.propertyPostsById[post.id]=post.slug;
                         vrqc.propertiesObjectById[post.id]=post;
-                        //console.log('property posts',post);
 
                         if (post.custom_fields.term[0] === 'short' ){
                             index.propertyPostsByTermAndRoomcount['short'][post.custom_fields.roomcount[0]].push(post.id);
