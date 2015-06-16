@@ -113,7 +113,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
                         // Creates a new post from a new resource
                             if( status === 'error' ) {
                                 var custom = '';
-                                var propertyProperties = ['type','meals','amenities','suitability','sleeps','bathrooms','entertainment','kitchen','address', 'rate-info','off-peak-night', 'off-peak-week','peak-night', 'peak-week'];
+                                var propertyProperties = ['type','amenities','suitability','sleeps','bathrooms','entertainment','kitchen','address', 'rate-info','off-peak-night', 'off-peak-week','peak-night', 'peak-week'];
                                 angular.forEach(property.custom_fields, function(value,field){
                                     custom = custom + '&custom['+field+']='+encodeURI(value);
                                 });

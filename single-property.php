@@ -61,9 +61,6 @@
                     <hr/>
                     <?php $meta = get_post_meta( get_the_ID(), 'type' ); echo $meta[0] ?>
                     <hr/>
-                    <h4>Meals</h4>
-                    <?php $meta = get_post_meta( get_the_ID(), 'meals' ); echo $meta[0] ?>
-                    <hr/>
                     <h4>Amenities</h4>
                     <?php $meta = get_post_meta( get_the_ID(), 'amenities' ); echo $meta[0] ?>
                     <hr/>
