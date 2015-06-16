@@ -53,11 +53,11 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7437604">
-              <caret line="62" column="23" selection-start-line="56" selection-start-column="20" selection-end-line="62" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.39600664">
+              <caret line="54" column="121" selection-start-line="54" selection-start-column="121" selection-end-line="54" selection-end-column="121" />
               <folding>
-                <element signature="e#8687#9107#0" expanded="false" />
-                <element signature="e#9322#9377#0" expanded="false" />
+                <element signature="e#8936#9356#0" expanded="false" />
+                <element signature="e#9571#9626#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -271,18 +271,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00123" summary="single prop tight top">
-      <created>1433360314665</created>
-      <option name="number" value="00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1433360314665</updated>
-    </task>
-    <task id="LOCAL-00124" summary="single prop tight top">
-      <created>1433360474091</created>
-      <option name="number" value="00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1433360474092</updated>
     </task>
     <task id="LOCAL-00125" summary="payment form and footer tight">
       <created>1433362936419</created>
@@ -566,7 +554,19 @@
       <option name="project" value="LOCAL" />
       <updated>1434490139918</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="refactor front page properties and objects">
+      <created>1434490625116</created>
+      <option name="number" value="00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1434490625116</updated>
+    </task>
+    <task id="LOCAL-00173" summary="refactor front page properties and objects">
+      <created>1434490785520</created>
+      <option name="number" value="00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1434490785521</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -658,8 +658,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="148" selection-start-line="13" selection-start-column="148" selection-end-line="13" selection-end-column="148" />
           <folding>
-            <element signature="e#8687#9107#0" expanded="false" />
-            <element signature="e#9322#9377#0" expanded="false" />
+            <element signature="e#8936#9356#0" expanded="false" />
+            <element signature="e#9571#9626#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1050,11 +1050,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7437604">
-          <caret line="62" column="23" selection-start-line="56" selection-start-column="20" selection-end-line="62" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.39600664">
+          <caret line="54" column="121" selection-start-line="54" selection-start-column="121" selection-end-line="54" selection-end-column="121" />
           <folding>
-            <element signature="e#8687#9107#0" expanded="false" />
-            <element signature="e#9322#9377#0" expanded="false" />
+            <element signature="e#8936#9356#0" expanded="false" />
+            <element signature="e#9571#9626#0" expanded="false" />
           </folding>
         </state>
       </provider>
