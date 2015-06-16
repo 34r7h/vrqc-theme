@@ -9,9 +9,36 @@ app.controller('vrqcPropCtrl', function($scope, data){
 		$scope.getDate = Date.now();
 
 }).factory('data', function($http, $timeout, $location, $sce, $rootScope){
-    var vrqc = {propertiesData:{}, propertiesObject:{}, postsData:{}, postsObject:{}, postData:{}, offersData:{}, weather:{}};
-    var nav = {property: ['Overview','Rates','Location','Reviews'],properties: ['All', '1 BR', '2 BR', '3 BR', '4+ BR'], categories:[]};
-    var index = {postsById:{}, postsBySlug:{}, postsByCategory:{}, propertiesById:{},propertiesBySlug:{},propertyPostsById:{},propertyPostsBySlug:{},propertyPostsByRoomcount:{'1':[],'2':[],'3':[],'4':[],many:[]}};
+    var vrqc = {
+        propertiesData:{},
+        propertiesObject:{},
+        propertiesObjectById:{},
+        postsData:{},
+        postsObject:{},
+        postData:{},
+        offersData:{},
+        weather:{}
+    };
+    var nav = {
+        property: ['Overview','Rates','Location','Reviews'],
+        properties: ['All', '1 BR', '2 BR', '3 BR', '4+ BR'],
+        categories:[]
+    };
+    var index = {
+        postsById:{},
+        postsBySlug:{},
+        postsByCategory:{},
+        propertiesById:{},
+        propertiesBySlug:{},
+        propertyPostsById:{},
+        propertyPostsBySlug:{},
+        propertyPostsByRoomcount:{'1':[],'2':[],'3':[],'4':[],many:[]},
+        propertyPostsByTerm:{'long':[],'short':[]},
+        propertyPostsByTermAndRoomcount: {
+            'long': {'1': [], '2': [], '3': [], '4': [], many: []},
+            'short': {'1': [], '2': [], '3': [], '4': [], many: []}
+        }
+    };
     $timeout(function(){
 
         // Property Posts
@@ -22,7 +49,16 @@ app.controller('vrqcPropCtrl', function($scope, data){
                     angular.forEach(vrqc.propertyPosts.posts, function (post) {
                         index.propertyPostsBySlug[post.slug]=post.id;
                         index.propertyPostsById[post.id]=post.slug;
+                        vrqc.propertiesObjectById[post.id]=post;
                         //console.log('property posts',post);
+
+                        if (post.custom_fields.term[0] === 'short' ){
+                            index.propertyPostsByTermAndRoomcount['short'][post.custom_fields.roomcount[0]].push(post.id);
+                            index.propertyPostsByTerm['short'].push(post.id);
+                        } else {
+                            index.propertyPostsByTermAndRoomcount['long'][post.custom_fields.roomcount[0]].push(post.id);
+                            index.propertyPostsByTerm['long'].push(post.id);
+                        }
 
                         if (post.custom_fields.roomcount[0] === '1'){
                             index.propertyPostsByRoomcount['1'].push(post);
