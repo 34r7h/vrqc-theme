@@ -109,9 +109,10 @@
 <div>
     <div class="">
         <section class="noborderrad panel panel-default blurry-bg">
-            <div class="container-fluid">
-                <div ng-repeat="(termKey, propertyList) in index.propertyPostsByTermAndRoomcount">
-                    <h3 class="col-xs-12 dark-text">{{termKey | uppercase}} Term Rentals</h3>
+            <div class="container-fluid" ng-init="ourProperties[0]=index.propertyPostsByTermAndRoomcount['short'];ourProperties[1]=index.propertyPostsByTermAndRoomcount['long'];">
+                <div ng-repeat="(termKey, propertyList) in ourProperties">
+                    <h3 class="col-xs-12 dark-text" ng-if="termKey==='0'">Short Term Rentals</h3>
+                     <h3 class="col-xs-12 dark-text" ng-if="termKey==='1'">Long Term Rentals</h3>
                     <div
                             ng-repeat="(propertyListKey, propertyIds) in propertyList"
                             ng-show="propertyIds.length > 0"

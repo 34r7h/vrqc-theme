@@ -33,10 +33,10 @@ app.controller('vrqcPropCtrl', function($scope, data){
         propertyPostsById:{},
         propertyPostsBySlug:{},
         propertyPostsByRoomcount:{'1':[],'2':[],'3':[],'4':[],many:[]},
-        propertyPostsByTerm:{'long':[],'short':[]},
+        propertyPostsByTerm:{'short':[],'long':[]},
         propertyPostsByTermAndRoomcount: {
-            'long': {'1': [], '2': [], '3': [], '4': [], many: []},
-            'short': {'1': [], '2': [], '3': [], '4': [], many: []}
+            'short': {'1': [], '2': [], '3': [], '4': [], many: []},
+            'long': {'1': [], '2': [], '3': [], '4': [], many: []}
         }
     };
     $timeout(function(){
@@ -47,11 +47,9 @@ app.controller('vrqcPropCtrl', function($scope, data){
                 vrqc.propertyPosts = data;
               console.log('where is my data', data);
                 angular.forEach(data.posts, function (post) {
-                    console.log('property posts',post);
                     index.propertyPostsBySlug[post.slug]=post.id;
                     index.propertyPostsById[post.id]=post.slug;
                     vrqc.propertiesObjectById[post.id]=post;
-                    console.log('post.custom_fields.term[0]', post.custom_fields.term[0]);
                     if(index.propertyPostsByTermAndRoomcount[post.custom_fields.term[0]][post.custom_fields.roomcount[0]]){
                         index.propertyPostsByTermAndRoomcount[post.custom_fields.term[0]][post.custom_fields.roomcount[0]].push(post.id);
                         index.propertyPostsByRoomcount[post.custom_fields.roomcount[0]].push(post.id);
@@ -67,7 +65,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
                     }*/
 
 
-                    if (post.custom_fields.roomcount[0] === '1'){
+                    /*if (post.custom_fields.roomcount[0] === '1'){
                         index.propertyPostsByRoomcount['1'].push(post);
                     } else if (post.custom_fields.roomcount[0] === '2'){
                         index.propertyPostsByRoomcount['2'].push(post);
@@ -77,7 +75,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
                         index.propertyPostsByRoomcount['4'].push(post);
                     } else {
                         index.propertyPostsByRoomcount.many.push(post);
-                    }
+                    }*/
                 });
 
             }).error(function (data, status, headers, config) {
