@@ -54,9 +54,10 @@ app.controller('vrqcPropCtrl', function($scope, data){
                     console.log('post.custom_fields.term[0]', post.custom_fields.term[0]);
                     if(index.propertyPostsByTermAndRoomcount[post.custom_fields.term[0]][post.custom_fields.roomcount[0]]){
                         index.propertyPostsByTermAndRoomcount[post.custom_fields.term[0]][post.custom_fields.roomcount[0]].push(post.id);
+                        index.propertyPostsByRoomcount[post.custom_fields.roomcount[0]].push(post.id);
                     }
 
-                    index.propertyPostsByRoomcount[post.custom_fields.roomcount[0]].push(post.id);
+
                     /*if (post.custom_fields.term && post.custom_fields.term[0] == 'long' ){
                         index.propertyPostsByTermAndRoomcount['long'][post.custom_fields.roomcount[0]].push(post.id);
                         index.propertyPostsByTerm['long'].push(post.id);
