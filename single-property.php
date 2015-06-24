@@ -76,35 +76,6 @@
                 <div ng-show="show.propertySection ==='Overview' || show.propertySection ==='Rates'" class="col-xs-12 well">
                     <h2>Rates</h2>
                     <hr/>
-                    <p>Peak season runs Apr 1 - Nov 1</p>
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tr>
-                                <td></td>
-                                <th>Off Peak</th>
-                                <th>Peak</th>
-                            </tr>
-                            <tr>
-                                <th>Nightly</th>
-                                <td>
-                                    $<?php $meta = get_post_meta( get_the_ID(), 'off-peak-night' ); echo $meta[0] ?>
-                                </td>
-                                <td>
-                                    $<?php $meta = get_post_meta( get_the_ID(), 'peak-night' ); echo $meta[0] ?>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Weekly</th>
-                                <td>
-                                    $<?php $meta = get_post_meta( get_the_ID(), 'off-peak-week' ); echo $meta[0] ?>
-                                </td>
-                                <td>
-                                    $<?php $meta = get_post_meta( get_the_ID(), 'peak-week' ); echo $meta[0] ?>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <p>
                         <?php $meta = get_post_meta( get_the_ID(), 'rate-info' ); echo $meta[0] ?>
                     </p>
                 </div>
