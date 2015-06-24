@@ -45,12 +45,64 @@
                     </div>
                 </span>
                 <div ng-mouseleave="suitesDropdown['Suites']=false;" ng-if="suitesDropdown['Suites']" class="btn-group btn-group-vertical nopad" style="position: absolute; width: 75%; top: 1.6em; z-index: 99999; left:21%">
+                    <!-- Extra work that wasn't agreed to and won't be paid for. deal with the raw html then. -->
+                    <a href="<?php echo get_site_url(); ?>/suite-frontenac/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Suite Frontenac</div>
+                        <div class="text-left pull-left">2 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/suite-cartier/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Suite Cartier</div>
+                        <div class="text-left pull-left">2 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/suite-belle/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Suite Belle</div>
+                        <div class="text-left pull-left">2 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/suite-jardin/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Suite Jardin</div>
+                        <div class="text-left pull-left">2 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/suite-laurier/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Suite Laurier</div>
+                        <div class="text-left pull-left">3 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/suite-citadelle/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Suite Citadelle</div>
+                        <div class="text-left pull-left">4 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/suite-versailles/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Suite Versailles</div>
+                        <div class="text-left pull-left">4 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/urban-antique/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Urban Antique</div>
+                        <div class="text-left pull-left">Studio - 1 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/urban-chic/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Urban Chic</div>
+                        <div class="text-left pull-left">Studio - 1 br</div>
+                    </a>
+
+                <a href="<?php echo get_site_url(); ?>/urban-pied-de-terre/" class="text-left btn btn-default " style="height:37px">
+                        <div class="col-xs-8 text-left">Urban Pied de Terre</div>
+                        <div class="text-left pull-left">2 br</div>
+                    </a>
+
+                    <!-- this was golden but client prefers difficulty
                     <a ng-href="{{property.url}}" class="text-left btn btn-default " ng-repeat="property in vrqc.propertyPosts.posts | orderBy:'property.custom_fields.roomcount[0]'" style="height:37px">
                         <div class="col-xs-8 text-left">{{property.title}}</div>
                         <div class="text-left pull-left">{{property.custom_fields.roomcount[0]}} br</div>
 
 
-                    </a>
+                    </a>-->
                 </div>
 
             </div>

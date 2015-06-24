@@ -207,7 +207,7 @@
 
                                 <b class="fa fa-home">
                                      <span ng-if="propertyListKey==='1'">STUDIO -</span> {{propertyListKey | uppercase}}
-                                    BEDROOMS
+                                    BEDROOM
                                 </b>
                             </div>
                             <div class="panel-body smallmar">
