@@ -1,6 +1,7 @@
 app = angular.module('vrqc', ['ngSanitize']);
 
 app.controller('vrqcPropCtrl', function($scope, data){
+    $scope.window = data[3];
     $scope.vrqc = data[0];
     $scope.nav = data[1];
     $scope.index = data[2];
@@ -8,7 +9,9 @@ app.controller('vrqcPropCtrl', function($scope, data){
     $scope.getTheId = data[0].propertySlug;
 		$scope.getDate = Date.now();
 
-}).factory('data', function($http, $timeout, $location, $sce, $rootScope){
+}).factory('data', function($http, $timeout, $location, $sce, $rootScope, $window){
+
+    var window = $window;
     var vrqc = {
         propertiesData:{},
         propertiesObject:{},
@@ -222,7 +225,7 @@ app.controller('vrqcPropCtrl', function($scope, data){
 
     };
 
-    return [vrqc, nav, index];
+    return [vrqc, nav, index, window];
 
     /*        $scope.propertyID = function(properties, url) {
      $timeout(function(url){

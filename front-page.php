@@ -110,19 +110,51 @@
     <div class="">
         <section class="noborderrad panel panel-default blurry-bg">
             <div class="container-fluid" ng-init="ourProperties[0]=index.propertyPostsByTermAndRoomcount['short'];ourProperties[1]=index.propertyPostsByTermAndRoomcount['long'];">
-                <div ng-repeat="(termKey, propertyList) in ourProperties">
+
+                <div ng-repeat="(termKey, propertyList) in ourProperties" ng-if="termKey==='0'">
                     <h3 class="col-xs-12 dark-text" ng-if="termKey==='0'">Short Term Rentals</h3>
-                     <h3 class="col-xs-12 dark-text" ng-if="termKey==='1'">Long Term Rentals</h3>
+
+                    <!-- short term 2 bedroom-->
                     <div
                             ng-repeat="(propertyListKey, propertyIds) in propertyList"
                             ng-show="propertyIds.length > 0"
-                            class="col-xs-12 col-sm-6">
+                            class="col-xs-12 col-sm-6"
+                            ng-if="propertyIds.length === 4">
                         <div class="panel panel-dark">
-                            <div class="panel-heading dark-bg light-text"><b class="fa fa-home"> {{propertyListKey | uppercase}}
-                                BEDROOM<span ng-if="propertyListKey!=='1'">S</span> <span ng-if="propertyListKey==='1'">/ STUDIO</span> </b>
+                            <div class="panel-heading dark-bg light-text">
+                                <span ng-if="propertyListKey==='1'">STUDIO -</span>
+                                <b class="fa fa-home"> {{propertyListKey | uppercase}}
+                                BEDROOM<span ng-if="propertyListKey!=='1'">S</span>
+                                </b>
                             </div>
-                            <div class="panel-body">
-                                <div class="col-xs-6" ng-repeat="(propertyKey, property) in propertyIds">
+                            <div class="panel-body smallmar">
+                                <div class="col-xs-6 smallpad" ng-repeat="(propertyKey, property) in propertyIds">
+
+                                    <a class="light-text" ng-href="{{vrqc.propertiesObjectById[property].url}}">
+                                        <b class="img-title">{{vrqc.propertiesObjectById[property].title}}
+                                        </b>
+                                        <div style="width:100%; height:{{window.innerWidth/16}}px; background-size: contain; background:url('{{vrqc.propertiesObjectById[property].thumbnail_images.medium.url}}') center center">
+                                            </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- short term 3 bedroom-->
+                    <div
+                            ng-repeat="(propertyListKey, propertyIds) in propertyList"
+                            ng-show="propertyIds.length > 0"
+                            class="col-xs-12 col-sm-2 nomar nopad"
+                            ng-if="propertyIds.length === 1">
+                        <div class="panel panel-dark">
+                            <div class="panel-heading dark-bg light-text">
+                                <span ng-if="propertyListKey==='1'">STUDIO -</span>
+                                <b class="fa fa-home"> {{propertyListKey | uppercase}}
+                                    BEDROOM<span ng-if="propertyListKey!=='1'">S</span>
+                                </b>
+                            </div>
+                            <div class="panel-body smallmar">
+                                <div class="col-xs-12 smallpad" ng-repeat="(propertyKey, property) in propertyIds">
 
                                     <a class="light-text" ng-href="{{vrqc.propertiesObjectById[property].url}}">
                                         <b class="img-title">{{vrqc.propertiesObjectById[property].title}}
@@ -133,6 +165,91 @@
                             </div>
                         </div>
                     </div>
+                    <!-- short term 4 bedroom-->
+                    <div
+                            ng-repeat="(propertyListKey, propertyIds) in propertyList"
+                            ng-show="propertyIds.length > 0"
+                            class="col-xs-12 col-sm-4"
+                            ng-if="propertyIds.length === 2">
+                        <div class="panel panel-dark">
+                            <div class="panel-heading dark-bg light-text">
+                                <span ng-if="propertyListKey==='1'">STUDIO -</span>
+                                <b class="fa fa-home"> {{propertyListKey | uppercase}}
+                                    BEDROOM<span ng-if="propertyListKey!=='1'">S</span>
+                                </b>
+                            </div>
+                            <div class="panel-body smallmar">
+                                <div class="col-xs-6 smallpad" ng-repeat="(propertyKey, property) in propertyIds">
+
+                                    <a class="light-text" ng-href="{{vrqc.propertiesObjectById[property].url}}">
+                                        <b class="img-title">{{vrqc.propertiesObjectById[property].title}}
+                                        </b>
+                                        <img width="100%" height="auto" ng-src="{{vrqc.propertiesObjectById[property].thumbnail}}">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div ng-repeat="(termKey, propertyList) in ourProperties" ng-if="termKey==='1'">
+                    <h3 class="col-xs-12 dark-text">Long Term Rentals</h3>
+
+                    <!-- long term studio - 1 bedroom-->
+                    <div
+                            ng-repeat="(propertyListKey, propertyIds) in propertyList"
+                            ng-show="propertyIds.length > 0"
+                            class="col-xs-12 col-sm-8"
+                            ng-if="propertyListKey==='1'">
+                        <div class="panel panel-dark">
+                            <div class="panel-heading dark-bg light-text">
+
+                                <b class="fa fa-home">
+                                     <span ng-if="propertyListKey==='1'">STUDIO -</span> {{propertyListKey | uppercase}}
+                                    BEDROOMS
+                                </b>
+                            </div>
+                            <div class="panel-body smallmar">
+                                <div class="col-xs-12 col-sm-6 smallpad" ng-repeat="(propertyKey, property) in propertyIds">
+
+                                    <a class="light-text" ng-href="{{vrqc.propertiesObjectById[property].url}}">
+                                        <b class="img-title">{{vrqc.propertiesObjectById[property].title}}
+                                        </b>
+                                        <img ng-src="{{vrqc.propertiesObjectById[property].thumbnail}}">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- long term 2-3-4 bedroom-->
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="panel panel-dark">
+                            <div class="panel-heading dark-bg light-text">
+                                <b class="fa fa-home"> 2 - 3 - 4
+                                    BEDROOMS
+                                </b>
+                            </div>
+                            <div class="panel-body smallmar">
+                                <div ng-repeat="(propertyListKey, propertyIds) in propertyList"
+                                     ng-show="propertyIds.length > 0"
+                                     class="col-xs-12 nomar nopad"
+                                     ng-if="propertyListKey !== '1'">
+                                    <div class="col-xs-12 smallpad" ng-repeat="(propertyKey, property) in propertyIds">
+
+                                        <a class="light-text" ng-href="{{vrqc.propertiesObjectById[property].url}}">
+                                            <b class="img-title">{{vrqc.propertiesObjectById[property].title}}
+                                            </b>
+                                            <img ng-src="{{vrqc.propertiesObjectById[property].thumbnail}}">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
             <hr/>
