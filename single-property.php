@@ -77,7 +77,6 @@
                     <h2>Rates</h2>
                     <hr/>
                         <?php $meta = get_post_meta( get_the_ID(), 'rate-info' ); echo $meta[0] ?>
-                    </p>
                 </div>
                 <div ng-show="show.propertySection ==='Overview' || show.propertySection ==='Location'" ng-init="loc.address='779+Côte+de+la+Citadelle,+Quebec+City,+QC,+Canada'; loc.src = $sce.trustAsHtml('http://www.google.com/maps/embed/v1/place?q='+ loc.address +'&key=AIzaSyBOX888m2mY9tbI1PgtJcgGvb7KsjTxTzE')" class="col-xs-12 well ">
                     <h2>Location</h2>
