@@ -217,7 +217,7 @@
                                     <a class="light-text" ng-href="{{vrqc.propertiesObjectById[property].url}}">
                                         <b class="img-title">{{vrqc.propertiesObjectById[property].title}}
                                         </b>
-                                        <img ng-src="{{vrqc.propertiesObjectById[property].thumbnail_images.medium.url}}">
+                                        <img style="width:100%; min-height:auto;" ng-src="{{vrqc.propertiesObjectById[property].thumbnail_images.large.url}}" alt=""/>
                                     </a>
                                 </div>
                             </div>
