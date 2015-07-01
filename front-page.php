@@ -171,7 +171,7 @@
                         <div
                                 ng-repeat="(propertyListKey, propertyIds) in propertyList"
                                 ng-show="propertyIds.length > 0"
-                                class="col-xs-12 col-sm-8"
+                                class="col-xs-12 col-sm-8 nomar nopad"
                                 ng-if="propertyIds.length === 2">
                             <div class="panel panel-dark">
                                 <div class="panel-heading dark-bg light-text">
