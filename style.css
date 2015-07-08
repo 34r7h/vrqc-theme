@@ -147,13 +147,13 @@ button:hover, .btn:hover {box-shadow:3px 3px 4px rgba(6, 24, 80, .14);}
 h4.navbar-text {margin-top: 1.2em;}
 body {
     font-size: 16px;
-    background: rgb(77,71,70); /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  rgba(77,71,70,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(77,71,70,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg,  rgba(77,71,70,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg,  rgba(77,71,70,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg,  rgba(77,71,70,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
-    background: linear-gradient(135deg,  rgba(77,71,70,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+    background: rgb(21, 19, 19); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgb(20, 18, 17) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgb(24, 20, 20)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, rgb(36, 33, 33) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, rgb(28, 26, 26) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, rgb(10, 25, 14) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg, rgb(27, 25, 25) 0%,rgba(0,0,0,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 

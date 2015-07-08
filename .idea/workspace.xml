@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d85173-0673-4dbd-9e7e-219184d5e1b0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vrqc.iws" />
@@ -23,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47330096">
+            <state vertical-scroll-proportion="37.814816">
               <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
@@ -40,6 +41,33 @@
                 <element signature="n#style#0;n#a#7;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#8;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#9;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20045558">
+              <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
+              <folding>
+                <element signature="e#2565#2594#0" expanded="false" />
+                <element signature="e#4586#4641#0" expanded="false" />
+                <element signature="e#6813#6871#0" expanded="false" />
+                <element signature="e#7118#7199#0" expanded="false" />
+                <element signature="e#7229#7269#0" expanded="false" />
+                <element signature="e#8275#8312#0" expanded="false" />
+                <element signature="e#8344#8383#0" expanded="false" />
+                <element signature="e#8404#8445#0" expanded="false" />
+                <element signature="e#8462#8497#0" expanded="false" />
+                <element signature="e#8508#8565#0" expanded="false" />
+                <element signature="e#8620#8656#0" expanded="false" />
+                <element signature="e#8667#8708#0" expanded="false" />
+                <element signature="e#8832#8943#0" expanded="false" />
+                <element signature="e#9316#9351#0" expanded="false" />
+                <element signature="e#9383#9419#0" expanded="false" />
+                <element signature="e#10352#10389#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -129,7 +157,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/sidebar-property.php" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/category.php" />
         <option value="$PROJECT_DIR$/single.php" />
@@ -140,6 +167,7 @@
         <option value="$PROJECT_DIR$/single-property.php" />
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -167,7 +195,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -178,7 +206,30 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrqc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrqc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrqc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -226,12 +277,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00148" summary="payment form and footer tight">
-      <created>1433378427450</created>
-      <option name="number" value="00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1433378427450</updated>
     </task>
     <task id="LOCAL-00149" summary="payment form and footer tight">
       <created>1433378580661</created>
@@ -521,19 +566,25 @@
       <option name="project" value="LOCAL" />
       <updated>1436385395666</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="free extra work bc i've got a big mouth">
+      <created>1436385460841</created>
+      <option name="number" value="00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1436385460841</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="241" y="23" width="1019" height="745" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2004008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2004008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771823" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771823" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -820,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="243" column="16" selection-start-line="243" selection-start-column="16" selection-end-line="243" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -969,7 +1013,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47330096">
+        <state vertical-scroll-proportion="37.814816">
           <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
@@ -983,6 +1027,31 @@
             <element signature="n#style#0;n#a#7;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#8;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#9;n#div#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20045558">
+          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
+          <folding>
+            <element signature="e#2565#2594#0" expanded="false" />
+            <element signature="e#4586#4641#0" expanded="false" />
+            <element signature="e#6813#6871#0" expanded="false" />
+            <element signature="e#7118#7199#0" expanded="false" />
+            <element signature="e#7229#7269#0" expanded="false" />
+            <element signature="e#8275#8312#0" expanded="false" />
+            <element signature="e#8344#8383#0" expanded="false" />
+            <element signature="e#8404#8445#0" expanded="false" />
+            <element signature="e#8462#8497#0" expanded="false" />
+            <element signature="e#8508#8565#0" expanded="false" />
+            <element signature="e#8620#8656#0" expanded="false" />
+            <element signature="e#8667#8708#0" expanded="false" />
+            <element signature="e#8832#8943#0" expanded="false" />
+            <element signature="e#9316#9351#0" expanded="false" />
+            <element signature="e#9383#9419#0" expanded="false" />
+            <element signature="e#10352#10389#0" expanded="false" />
           </folding>
         </state>
       </provider>
