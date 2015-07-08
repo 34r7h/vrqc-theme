@@ -83,17 +83,17 @@
 
                 <a href="<?php echo get_site_url(); ?>/urban-antique/" class="text-left btn btn-default " style="height:37px">
                         <div class="col-xs-8 text-left">Urban Antique</div>
-                        <div class="text-left pull-left">Studio - 1 br</div>
+                        <div class="text-left pull-left">Studio</div>
                     </a>
 
                 <a href="<?php echo get_site_url(); ?>/urban-chic/" class="text-left btn btn-default " style="height:37px">
                         <div class="col-xs-8 text-left">Urban Chic</div>
-                        <div class="text-left pull-left">Studio - 1 br</div>
+                        <div class="text-left pull-left">1 br</div>
                     </a>
 
                 <a href="<?php echo get_site_url(); ?>/urban-pied-de-terre/" class="text-left btn btn-default " style="height:37px">
                         <div class="col-xs-8 text-left">Urban Pied de Terre</div>
-                        <div class="text-left pull-left">2 br</div>
+                        <div class="text-left pull-left">1 br</div>
                     </a>
 
                     <!-- this was golden but client prefers difficulty
