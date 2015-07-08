@@ -49,8 +49,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20045558">
-              <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6553398">
+              <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
               <folding>
                 <element signature="e#2565#2594#0" expanded="false" />
                 <element signature="e#4586#4641#0" expanded="false" />
@@ -67,7 +67,7 @@
                 <element signature="e#8832#8943#0" expanded="false" />
                 <element signature="e#9316#9351#0" expanded="false" />
                 <element signature="e#9383#9419#0" expanded="false" />
-                <element signature="e#10352#10389#0" expanded="false" />
+                <element signature="e#10345#10382#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -277,12 +277,6 @@
       <created>1428060686644</created>
       <option name="number" value="Default" />
       <updated>1428060686644</updated>
-    </task>
-    <task id="LOCAL-00149" summary="payment form and footer tight">
-      <created>1433378580661</created>
-      <option name="number" value="00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1433378580661</updated>
     </task>
     <task id="LOCAL-00150" summary="payment form and footer tight">
       <created>1433378687210</created>
@@ -572,7 +566,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436385460841</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="free extra work bc i've got a big mouth">
+      <created>1436385818145</created>
+      <option name="number" value="00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1436385818145</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1033,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20045558">
-          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.6553398">
+          <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
           <folding>
             <element signature="e#2565#2594#0" expanded="false" />
             <element signature="e#4586#4641#0" expanded="false" />
@@ -1051,7 +1051,7 @@
             <element signature="e#8832#8943#0" expanded="false" />
             <element signature="e#9316#9351#0" expanded="false" />
             <element signature="e#9383#9419#0" expanded="false" />
-            <element signature="e#10352#10389#0" expanded="false" />
+            <element signature="e#10345#10382#0" expanded="false" />
           </folding>
         </state>
       </provider>
